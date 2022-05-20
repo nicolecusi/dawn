@@ -3,14 +3,15 @@
     "165245866675936f64": {
       "type": "slideshow",
       "blocks": {
-        "16524586661290c3c8-0": {
+        "16524586661290c3c8-1": {
           "type": "slide",
           "settings": {
-            "heading": "Image slide",
+            "image": "shopify:\/\/shop_images\/089_Start_SSS_SE_2022_1_desktop_web.jpg",
+            "heading": "Seydel Session Steel Summer Edition 2022",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
+            "subheading": "Available for a limited time!",
+            "button_label": "Shop now",
+            "link": "shopify:\/\/products\/session-steel-summer-edition",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
@@ -20,36 +21,145 @@
             "text_alignment_mobile": "center"
           }
         },
-        "16524586661290c3c8-1": {
+        "856815c8-09b3-4710-9bf8-cf503100b55a": {
           "type": "slide",
           "settings": {
-            "heading": "Image slide",
+            "image": "shopify:\/\/shop_images\/Frame_5.png",
+            "heading": "Revelle Bows",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
+            "subheading": "Student tested. Teacher approved.",
+            "button_label": "Shop now",
+            "link": "shopify:\/\/collections\/revelle-1",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 30,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "16524586661290c3c8-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Desktop_-_1.png",
+            "heading": "Gifts & Novelty Items",
+            "heading_size": "h1",
+            "subheading": "Stock up on musical goods!",
+            "button_label": "Shop now",
+            "link": "shopify:\/\/collections\/novelty-items",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
+            "color_scheme": "accent-1",
             "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "16524586661290c3c8-0",
-        "16524586661290c3c8-1"
+        "16524586661290c3c8-1",
+        "856815c8-09b3-4710-9bf8-cf503100b55a",
+        "16524586661290c3c8-0"
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "slider_visual": "counter",
-        "auto_rotate": false,
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
         "change_slides_speed": 5,
         "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
+        "accessibility_info": "Header slideshow"
+      }
+    },
+    "16527114695ef6dcd2": {
+      "type": "collection-list",
+      "blocks": {
+        "165271146986394f27-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "violins"
+          }
+        },
+        "165271146986394f27-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "violas"
+          }
+        },
+        "165271146986394f27-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cellos"
+          }
+        },
+        "82b98e95-1e3a-4ae8-a9ff-a0f6fddeb72a": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "all-cases-bags"
+          }
+        },
+        "822c081b-4bf2-4c89-afa9-3bf230648071": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "novelty-items"
+          }
+        },
+        "2087bd51-05ae-4cfa-a208-902d89f8a982": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "all-strings"
+          }
+        },
+        "3124c61b-5e4c-47ed-8aed-fefbdaf726de": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "reeds"
+          }
+        },
+        "beac3f71-bd09-4db3-bdcc-4a3325779e49": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "shoulder-rests"
+          }
+        },
+        "28f5f965-2291-4e0e-8e3a-faf1b70b52ac": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bows"
+          }
+        },
+        "3ad1df1a-f42f-4006-beef-4996490f08f1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "metronomes-tuners"
+          }
+        }
+      },
+      "block_order": [
+        "165271146986394f27-0",
+        "165271146986394f27-1",
+        "165271146986394f27-2",
+        "82b98e95-1e3a-4ae8-a9ff-a0f6fddeb72a",
+        "822c081b-4bf2-4c89-afa9-3bf230648071",
+        "2087bd51-05ae-4cfa-a208-902d89f8a982",
+        "3124c61b-5e4c-47ed-8aed-fefbdaf726de",
+        "beac3f71-bd09-4db3-bdcc-4a3325779e49",
+        "28f5f965-2291-4e0e-8e3a-faf1b70b52ac",
+        "3ad1df1a-f42f-4006-beef-4996490f08f1"
+      ],
+      "settings": {
+        "title": "Popular picks",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "featured_collection": {
@@ -144,44 +254,6 @@
         "padding_bottom": 36
       }
     },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "1652458669ffb9f72f": {
       "type": "featured-collection",
       "settings": {
@@ -212,6 +284,12 @@
     "1652461960fb1c570a": {
       "type": "collection-list",
       "blocks": {
+        "1652461960c8013e9b-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "instrument-accessories"
+          }
+        },
         "1652461960c8013e9b-0": {
           "type": "featured_collection",
           "settings": {
@@ -222,12 +300,6 @@
           "type": "featured_collection",
           "settings": {
             "collection": "harmonicas"
-          }
-        },
-        "1652461960c8013e9b-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "instrument-accessories"
           }
         },
         "8ac906f4-b9e5-4206-8e1e-85e2ca56a7b9": {
@@ -241,24 +313,45 @@
           "settings": {
             "collection": "classroom-instruments"
           }
+        },
+        "94f1b1b4-cfab-4995-b66a-fc7c06edc24a": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "guitars"
+          }
+        },
+        "226b6a4d-6cac-4bf7-a34e-f3f090e127e4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "brass-instruments"
+          }
+        },
+        "74f2b572-fca4-4831-a86d-d1ed9b5e6598": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ukuleles-accessories"
+          }
         }
       },
       "block_order": [
+        "1652461960c8013e9b-2",
         "1652461960c8013e9b-0",
         "1652461960c8013e9b-1",
-        "1652461960c8013e9b-2",
         "8ac906f4-b9e5-4206-8e1e-85e2ca56a7b9",
-        "45507e59-2bba-4da5-b651-2150db158565"
+        "45507e59-2bba-4da5-b651-2150db158565",
+        "94f1b1b4-cfab-4995-b66a-fc7c06edc24a",
+        "226b6a4d-6cac-4bf7-a34e-f3f090e127e4",
+        "74f2b572-fca4-4831-a86d-d1ed9b5e6598"
       ],
       "settings": {
-        "title": "",
+        "title": "Shop by Instrument Family",
         "heading_size": "h1",
         "image_ratio": "square",
-        "columns_desktop": 5,
+        "columns_desktop": 4,
         "color_scheme": "background-1",
         "show_view_all": false,
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -269,8 +362,9 @@
         "165246191639600205-0": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/about_us_icons_Dropship.png",
+            "title": "Drop Shipping Services",
+            "text": "<p>We offer drop shipping fulfillment services anywhere in Canada. Let us manage your shipping & handling!<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -278,8 +372,9 @@
         "165246191639600205-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/about_us_icons_Experts_42c9e6a8-85d0-4151-a914-7cdc1ca68ed2.png",
+            "title": "Expertise & Knowledge",
+            "text": "<p>Have a question or unsure of what product your customer needs? Our team of experts can help you find the answer.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -287,8 +382,9 @@
         "165246191639600205-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/about_us_icons_No_Minimum_Order.png",
+            "title": "No Minimum Orders",
+            "text": "<p>Think of us as your warehouse. We offer no minimum orders — order as often and as little as you need.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -300,18 +396,18 @@
         "165246191639600205-2"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
+        "title": "Welcome to Counterpoint Music!",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "square",
         "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Become a dealer",
+        "button_link": "shopify:\/\/pages\/become-a-dealer",
         "color_scheme": "background-2",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -371,13 +467,6 @@
             "heading_size": "h1"
           }
         },
-        "165246218070c24c65-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "subtitle"
-          }
-        },
         "165246218070c24c65-2": {
           "type": "buttons",
           "settings": {
@@ -392,7 +481,6 @@
       },
       "block_order": [
         "165246218070c24c65-0",
-        "165246218070c24c65-1",
         "165246218070c24c65-2"
       ],
       "settings": {
@@ -406,15 +494,15 @@
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": false
       }
     }
   },
   "order": [
     "165245866675936f64",
+    "16527114695ef6dcd2",
     "featured_collection",
     "165246214421fb1ea0",
-    "collage",
     "1652458669ffb9f72f",
     "1652461960fb1c570a",
     "1652461916c4bdd205",

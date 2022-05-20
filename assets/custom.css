@@ -1,0 +1,13 @@
+.quantity_container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.product__info-container {
+  margin-bottom: 40px;
+}
+
+.product__description {
+  margin-top: 40px;
+}

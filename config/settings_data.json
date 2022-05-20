@@ -3,19 +3,19 @@
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#121212",
     "gradient_accent_1": "",
-    "colors_accent_2": "#334fb4",
+    "colors_accent_2": "#911717",
     "gradient_accent_2": "",
     "colors_text": "#121212",
     "colors_outline_button_labels": "#121212",
     "colors_background_1": "#ffffff",
     "gradient_background_1": "",
-    "colors_background_2": "#f3f3f3",
+    "colors_background_2": "#eaeaea",
     "gradient_background_2": "",
     "type_header_font": "cooper_bt_n5",
-    "heading_scale": 100,
+    "heading_scale": 125,
     "type_body_font": "futura_n5",
-    "body_scale": 100,
-    "page_width": 1200,
+    "body_scale": 115,
+    "page_width": 1600,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
@@ -103,9 +103,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
-              "color_scheme": "background-1",
-              "link": ""
+              "text": "Welcome to our new store! Read about new changes here",
+              "color_scheme": "accent-2",
+              "link": "shopify:\/\/pages\/privacy-policy"
             }
           }
         },
@@ -183,6 +183,13 @@
         "type": "main-password-footer",
         "settings": {
           "color_scheme": "background-1"
+        }
+      },
+      "dealer-header": {
+        "type": "dealer-header",
+        "settings": {
+          "color_scheme": "background-2",
+          "dealer_menu": "dealer-menu"
         }
       }
     },
