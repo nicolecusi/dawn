@@ -54,6 +54,15 @@
             "show_dynamic_checkout": true
           }
         },
+        "06963ea3-dcdc-4188-bc1b-d17ef3044058": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "",
+            "icon": "box",
+            "content": "",
+            "page": "bam-cases-shipping-estimates"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -70,6 +79,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "06963ea3-dcdc-4188-bc1b-d17ef3044058",
         "description"
       ],
       "settings": {
