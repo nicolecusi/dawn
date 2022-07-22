@@ -54,6 +54,15 @@
             "show_dynamic_checkout": true
           }
         },
+        "3daccb7b-e874-49f6-886d-6b2428249bbe": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "",
+            "icon": "star",
+            "content": "",
+            "page": "seydel-repairmen"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -70,6 +79,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "3daccb7b-e874-49f6-886d-6b2428249bbe",
         "description"
       ],
       "settings": {

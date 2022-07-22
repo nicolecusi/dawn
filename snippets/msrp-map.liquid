@@ -1,13 +1,16 @@
 {% if customer %}
-  <div class="no-js-hidden" role="status" {{ block.shopify_attributes }}>
-    {% assign current_variant = product.selected_or_first_available_variant %}
-    <div class="hide-price">
-      {% if current_variant.metafields.dealer.MSRP.value != blank %}
+  <div role="status" {{ block.shopify_attributes }} class="no-js-hidden 
+    {% if product.vendor == 'Alhambra' %}{% unless customer.tags contains 'Alhambra' %} hidden{% endunless %}{% endif %}
+      ">
+      {% assign current_variant = product.selected_or_first_available_variant %}
+      <div class="hide-price">
+        {% if current_variant.metafields.dealer.MSRP.value != blank %}
         <div><span>MSRP: </span><span class="msrp">{{ current_variant.metafields.dealer.MSRP.value | times: 100 | money_with_currency }}</span></div>  
-      {% endif %}
-      {% if current_variant.metafields.dealer.MAP.value != blank %}
-        <div><span>MAP: </span><span class="map">{{ current_variant.metafields.dealer.MAP.value | times: 100 | money_with_currency }}</span></div>  
-      {% endif %}
+        {% endif %}
+        {% if current_variant.metafields.dealer.MAP.value != blank %}
+          <div><span>{% if product.vendor == 'Kun' %}MRP: {% else %}MAP: {% endif %}</span>
+          <span class="map">{{ current_variant.metafields.dealer.MAP.value | times: 100 | money_with_currency }}</span></div>
+        {% endif %}
+      </div>
     </div>
-  </div>
 {% endif %}

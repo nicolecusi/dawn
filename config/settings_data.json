@@ -1,12 +1,12 @@
 {
   "current": {
     "colors_solid_button_labels": "#ffffff",
-    "colors_accent_1": "#121212",
+    "colors_accent_1": "#911717",
     "gradient_accent_1": "",
-    "colors_accent_2": "#911717",
+    "colors_accent_2": "#e22120",
     "gradient_accent_2": "",
     "colors_text": "#121212",
-    "colors_outline_button_labels": "#121212",
+    "colors_outline_button_labels": "#911717",
     "colors_background_1": "#ffffff",
     "gradient_background_1": "",
     "colors_background_2": "#eaeaea",
@@ -15,13 +15,13 @@
     "heading_scale": 125,
     "type_body_font": "futura_n5",
     "body_scale": 115,
-    "page_width": 1600,
+    "page_width": 1300,
     "spacing_sections": 0,
-    "spacing_grid_horizontal": 8,
-    "spacing_grid_vertical": 8,
+    "spacing_grid_horizontal": 12,
+    "spacing_grid_vertical": 12,
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
-    "buttons_radius": 0,
+    "buttons_radius": 6,
     "buttons_shadow_opacity": 0,
     "buttons_shadow_horizontal_offset": 0,
     "buttons_shadow_vertical_offset": 4,
@@ -42,8 +42,8 @@
     "inputs_shadow_blur": 5,
     "card_style": "standard",
     "card_image_padding": 0,
-    "card_text_alignment": "left",
-    "card_color_scheme": "background-2",
+    "card_text_alignment": "center",
+    "card_color_scheme": "background-1",
     "card_border_thickness": 0,
     "card_border_opacity": 10,
     "card_corner_radius": 0,
@@ -78,7 +78,7 @@
     "drawer_shadow_horizontal_offset": 0,
     "drawer_shadow_vertical_offset": 4,
     "drawer_shadow_blur": 5,
-    "badge_position": "bottom left",
+    "badge_position": "top right",
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
@@ -93,8 +93,9 @@
     "social_youtube_link": "",
     "social_vimeo_link": "",
     "predictive_search_enabled": true,
-    "predictive_search_show_vendor": false,
+    "predictive_search_show_vendor": true,
     "predictive_search_show_price": false,
+    "favicon": "shopify:\/\/shop_images\/BcnIIfmN2v.jpg",
     "currency_code_enabled": true,
     "sections": {
       "announcement-bar": {
@@ -122,7 +123,7 @@
           "logo": "shopify:\/\/shop_images\/Counterpoint_Music_Logo-Red-01.png",
           "logo_width": 250,
           "logo_position": "top-left",
-          "menu": "main-menu",
+          "menu": "new-main-menu",
           "menu_type_desktop": "mega",
           "show_line_separator": true,
           "enable_sticky_header": true,
@@ -135,40 +136,48 @@
           "footer-2": {
             "type": "text",
             "settings": {
-              "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "heading": "Counterpoint Musical Services",
+              "subtext": "<p>We are a Canadian wholesale distribution company established in 1994, dedicated to serving Canadian music retailers with fast, efficient, and friendly personal service.<\/p>"
+            }
+          },
+          "717b37bd-09f6-46f6-bb17-446a52fdc457": {
+            "type": "text",
+            "settings": {
+              "heading": "",
+              "subtext": ""
             }
           },
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
+              "heading": "Shop",
+              "menu": "new-main-menu"
             }
           },
           "footer-1": {
             "type": "link_list",
             "settings": {
               "heading": "Info",
-              "menu": "footer"
+              "menu": "new-footer"
             }
           }
         },
         "block_order": [
           "footer-2",
+          "717b37bd-09f6-46f6-bb17-446a52fdc457",
           "footer-0",
           "footer-1"
         ],
         "settings": {
-          "color_scheme": "inverse",
+          "color_scheme": "background-2",
           "newsletter_enable": false,
           "newsletter_heading": "Subscribe to our emails",
           "show_social": true,
           "enable_country_selector": false,
-          "enable_language_selector": false,
-          "payment_enable": true,
+          "enable_language_selector": true,
+          "payment_enable": false,
           "margin_top": 0,
-          "padding_top": 36,
+          "padding_top": 60,
           "padding_bottom": 36
         }
       },
@@ -190,6 +199,19 @@
         "settings": {
           "color_scheme": "background-2",
           "dealer_menu": "dealer-menu"
+        }
+      },
+      "pop-up": {
+        "type": "pop-up",
+        "settings": {
+          "enable_popup": false,
+          "heading": "",
+          "description": "",
+          "desktop_content_position": "left",
+          "button_label": "",
+          "button_link": "",
+          "color_scheme": "background-1",
+          "close_color": "#ffffff"
         }
       }
     },
