@@ -87,36 +87,6 @@
           "settings": {
             "collection": "bows"
           }
-        },
-        "6b0b8924-9898-4ef6-a37e-74171e1e5c3b": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "bridges"
-          }
-        },
-        "aa98a095-5d03-4cef-8ccb-8c75b7cc4632": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "brass-instruments"
-          }
-        },
-        "89f69ece-9571-40ef-a914-ad631317b0e5": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "9e54130c-b26b-48fc-802b-4eaa75386280": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "07bdfffa-a61e-4476-8416-09f2a6c1672c": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
         }
       },
       "block_order": [
@@ -124,12 +94,7 @@
         "16597240053339c023-1",
         "16597240053339c023-2",
         "8d63344d-22a9-4053-8d56-4108a99f47a0",
-        "482f7b8f-e69a-4537-83fc-650b25eb5b51",
-        "6b0b8924-9898-4ef6-a37e-74171e1e5c3b",
-        "aa98a095-5d03-4cef-8ccb-8c75b7cc4632",
-        "89f69ece-9571-40ef-a914-ad631317b0e5",
-        "9e54130c-b26b-48fc-802b-4eaa75386280",
-        "07bdfffa-a61e-4476-8416-09f2a6c1672c"
+        "482f7b8f-e69a-4537-83fc-650b25eb5b51"
       ],
       "settings": {
         "title": "Save 10% off wholesale prices",
@@ -141,7 +106,34 @@
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 100,
-        "padding_bottom": 56
+        "padding_bottom": 0
+      }
+    },
+    "165972454980c9b050": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "luthier-parts-tools",
+        "products_to_show": 5,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 36
       }
     },
     "1659723776249634c6": {
@@ -327,6 +319,7 @@
     "1659722900f88c929a",
     "main",
     "1659724005fe12e4f4",
+    "165972454980c9b050",
     "1659723776249634c6",
     "16597244134a72203e",
     "1659723592d6957fc7",
