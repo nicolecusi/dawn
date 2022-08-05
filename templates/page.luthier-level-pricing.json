@@ -86,6 +86,36 @@
           "settings": {
             "collection": "bows"
           }
+        },
+        "6b0b8924-9898-4ef6-a37e-74171e1e5c3b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "aa98a095-5d03-4cef-8ccb-8c75b7cc4632": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "89f69ece-9571-40ef-a914-ad631317b0e5": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "9e54130c-b26b-48fc-802b-4eaa75386280": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "07bdfffa-a61e-4476-8416-09f2a6c1672c": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
         }
       },
       "block_order": [
@@ -93,7 +123,12 @@
         "16597240053339c023-1",
         "16597240053339c023-2",
         "8d63344d-22a9-4053-8d56-4108a99f47a0",
-        "482f7b8f-e69a-4537-83fc-650b25eb5b51"
+        "482f7b8f-e69a-4537-83fc-650b25eb5b51",
+        "6b0b8924-9898-4ef6-a37e-74171e1e5c3b",
+        "aa98a095-5d03-4cef-8ccb-8c75b7cc4632",
+        "89f69ece-9571-40ef-a914-ad631317b0e5",
+        "9e54130c-b26b-48fc-802b-4eaa75386280",
+        "07bdfffa-a61e-4476-8416-09f2a6c1672c"
       ],
       "settings": {
         "title": "Save 10% off wholesale prices",
