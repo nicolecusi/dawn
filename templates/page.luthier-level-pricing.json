@@ -198,61 +198,31 @@
         "1659725141ea9c791d-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "thomastik-infeld"
           }
         },
         "1659725141ea9c791d-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "pirastro"
           }
         },
         "1659725141ea9c791d-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "wittner"
           }
         },
         "25aea5d6-0a72-4224-bcd4-a74a8f34c56d": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "bam"
           }
         },
         "1ecca328-3d78-4548-8fa2-01b70fdd2f66": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
-          }
-        },
-        "0c3afad1-c88c-4833-9ff2-ae0f5961bf0b": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "de881bcf-003d-486d-b035-acfea34f0c25": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "3a8b9493-f9e9-4fde-b3f1-559cee671ebd": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "3c19b36e-de10-4917-9a6d-7d5ea1963cc0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "91d366e9-49e4-419a-86c8-3d88a1274d8b": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
+            "collection": "boveda"
           }
         }
       },
@@ -261,12 +231,7 @@
         "1659725141ea9c791d-1",
         "1659725141ea9c791d-2",
         "25aea5d6-0a72-4224-bcd4-a74a8f34c56d",
-        "1ecca328-3d78-4548-8fa2-01b70fdd2f66",
-        "0c3afad1-c88c-4833-9ff2-ae0f5961bf0b",
-        "de881bcf-003d-486d-b035-acfea34f0c25",
-        "3a8b9493-f9e9-4fde-b3f1-559cee671ebd",
-        "3c19b36e-de10-4917-9a6d-7d5ea1963cc0",
-        "91d366e9-49e4-419a-86c8-3d88a1274d8b"
+        "1ecca328-3d78-4548-8fa2-01b70fdd2f66"
       ],
       "settings": {
         "title": "Our brands include",
