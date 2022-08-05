@@ -24,18 +24,18 @@
             "text_style": "body"
           }
         },
-        "1659722704e6828123-2": {
+        "2f317699-f626-4042-98a7-2b8e70b7fce3": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Get directions",
+            "button_link": "https:\/\/goo.gl\/maps\/9oCeipK9s4B4uBS59"
           }
         }
       },
       "block_order": [
         "1659722704e6828123-0",
         "1659722704e6828123-1",
-        "1659722704e6828123-2"
+        "2f317699-f626-4042-98a7-2b8e70b7fce3"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/decorated-chinese-store-front.jpg",
