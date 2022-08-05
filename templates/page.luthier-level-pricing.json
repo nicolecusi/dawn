@@ -60,26 +60,40 @@
         "16597240053339c023-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "strings"
           }
         },
         "16597240053339c023-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "luthier-parts-tools"
           }
         },
         "16597240053339c023-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "all-cases-bags"
+          }
+        },
+        "8d63344d-22a9-4053-8d56-4108a99f47a0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "humidity-control"
+          }
+        },
+        "482f7b8f-e69a-4537-83fc-650b25eb5b51": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bows"
           }
         }
       },
       "block_order": [
         "16597240053339c023-0",
         "16597240053339c023-1",
-        "16597240053339c023-2"
+        "16597240053339c023-2",
+        "8d63344d-22a9-4053-8d56-4108a99f47a0",
+        "482f7b8f-e69a-4537-83fc-650b25eb5b51"
       ],
       "settings": {
         "title": "Save 10% off wholesale prices",
