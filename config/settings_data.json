@@ -9,11 +9,11 @@
     "colors_outline_button_labels": "#911717",
     "colors_background_1": "#ffffff",
     "gradient_background_1": "",
-    "colors_background_2": "#eaeaea",
+    "colors_background_2": "#fff5d7",
     "gradient_background_2": "",
     "type_header_font": "cooper_bt_n5",
     "heading_scale": 125,
-    "type_body_font": "futura_n5",
+    "type_body_font": "rubik_n4",
     "body_scale": 115,
     "page_width": 1300,
     "spacing_sections": 0,
@@ -169,7 +169,7 @@
           "footer-1"
         ],
         "settings": {
-          "color_scheme": "background-2",
+          "color_scheme": "inverse",
           "newsletter_enable": false,
           "newsletter_heading": "Subscribe to our emails",
           "show_social": true,

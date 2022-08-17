@@ -22,7 +22,7 @@
             "text_style": "subtitle"
           }
         },
-        "11c79329-f8ed-4965-8892-42db0f59ef1d": {
+        "36133972-5e41-45f1-bb3d-c075742905f3": {
           "type": "sku",
           "settings": {
           }
@@ -32,7 +32,7 @@
           "settings": {
           }
         },
-        "4448773d-4901-419f-81f0-d13418df5096": {
+        "7b63b74e-42bd-4c1d-9a1e-b252f1a4af89": {
           "type": "msrp_map",
           "settings": {
           }
@@ -54,18 +54,18 @@
             "show_dynamic_checkout": true
           }
         },
-        "3daccb7b-e874-49f6-886d-6b2428249bbe": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "",
-            "icon": "star",
-            "content": "",
-            "page": "seydel-repairmen"
-          }
-        },
         "description": {
           "type": "description",
           "settings": {
+          }
+        },
+        "11701ef2-84f9-42ec-9477-c95819979df6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "SEYDEL Repair Services",
+            "icon": "none",
+            "content": "",
+            "page": "seydel-repairmen"
           }
         }
       },
@@ -73,19 +73,19 @@
         "vendor",
         "title",
         "caption",
-        "11c79329-f8ed-4965-8892-42db0f59ef1d",
+        "36133972-5e41-45f1-bb3d-c075742905f3",
         "price",
-        "4448773d-4901-419f-81f0-d13418df5096",
+        "7b63b74e-42bd-4c1d-9a1e-b252f1a4af89",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "3daccb7b-e874-49f6-886d-6b2428249bbe",
-        "description"
+        "description",
+        "11701ef2-84f9-42ec-9477-c95819979df6"
       ],
       "settings": {
-        "enable_sticky_info": true,
-        "gallery_layout": "thumbnail_slider",
-        "media_size": "small",
+        "enable_sticky_info": false,
+        "gallery_layout": "stacked",
+        "media_size": "large",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,

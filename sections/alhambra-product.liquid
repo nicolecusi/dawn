@@ -255,13 +255,9 @@
           {%- when 'sku' -%}
               {% render 'sku' %}
           {%- when 'msrp_map' -%}
-            {% if customer and customer.tags contains 'Alhambra' and product.vendor == 'Alhambra' %}
-              {% render 'msrp-map' with product %}
-            {% endif %}
+            {% render 'msrp-map' with product %}
           {%- when 'stock' -%}
-            {% if customer and customer.tags contains 'Alhambra' and product.vendor == 'Alhambra' %}
-              {% render 'inventory-qty' with product %}
-            {% endif %}
+            {% render 'inventory-qty' with product %}
           {%- when 'description' -%}
             {%- if product.description != blank -%}
               <div class="product__description rte quick-add-hidden">
