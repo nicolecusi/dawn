@@ -385,6 +385,15 @@
             "page": ""
           }
         },
+        "980d362e-17ff-44f9-ae4b-ea97aa273076": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are there any costs to join the Luthier Level Pricing Program?",
+            "icon": "none",
+            "row_content": "<p>It's completely free to join our program and you get access to our wholesale prices with an additional 10% off!<\/p>",
+            "page": ""
+          }
+        },
         "166005647896fecf81-1": {
           "type": "collapsible_row",
           "settings": {
@@ -415,6 +424,7 @@
       },
       "block_order": [
         "166005647896fecf81-0",
+        "980d362e-17ff-44f9-ae4b-ea97aa273076",
         "166005647896fecf81-1",
         "166005647896fecf81-3",
         "166005647896fecf81-2"
