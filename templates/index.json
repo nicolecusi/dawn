@@ -132,7 +132,7 @@
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
-        "button_link": "shopify:\/\/pages\/become-a-dealer",
+        "button_link": "shopify:\/\/pages\/become-a-dealer-american",
         "color_scheme": "background-2",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
@@ -351,7 +351,7 @@
           "type": "button",
           "settings": {
             "button_label": "Become a dealer",
-            "button_link": "shopify:\/\/pages\/become-a-dealer-1"
+            "button_link": "shopify:\/\/pages\/become-a-dealer"
           }
         }
       },
@@ -550,7 +550,7 @@
             "button_link_1": "shopify:\/\/pages\/about-us",
             "button_style_secondary_1": false,
             "button_label_2": "Become a Dealer",
-            "button_link_2": "shopify:\/\/pages\/become-a-dealer-1",
+            "button_link_2": "shopify:\/\/pages\/become-a-dealer",
             "button_style_secondary_2": false
           }
         }
