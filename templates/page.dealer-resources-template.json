@@ -4,17 +4,7 @@
       "type": "dealer-resources-template",
       "settings": {
         "padding_top": 56,
-        "padding_bottom": 64
-      }
-    },
-    "1661268869882337fb": {
-      "type": "page",
-      "settings": {
-        "page": "seydel-repairmen",
-        "heading_size": "h2",
-        "color_scheme": "background-1",
-        "padding_top": 24,
-        "padding_bottom": 20
+        "padding_bottom": 32
       }
     },
     "1661268735889bab2e": {
@@ -112,7 +102,6 @@
   },
   "order": [
     "main",
-    "1661268869882337fb",
     "1661268735889bab2e",
     "165972270458c657c9"
   ]
