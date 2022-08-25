@@ -3,6 +3,24 @@
     "165245866675936f64": {
       "type": "slideshow",
       "blocks": {
+        "79c129a0-6ac9-449c-aeef-ff7fdd330a69": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BTS_2022.png",
+            "heading": "Back to School Sale",
+            "heading_size": "h1",
+            "subheading": "Save 10% on all musical gifts & novelty items!",
+            "button_label": "Shop Back to School",
+            "link": "shopify:\/\/collections\/novelty-items",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "16524586661290c3c8-1": {
           "type": "slide",
           "settings": {
@@ -23,6 +41,7 @@
         },
         "856815c8-09b3-4710-9bf8-cf503100b55a": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_5.png",
             "heading": "Revelle Bows",
@@ -56,31 +75,13 @@
             "color_scheme": "accent-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "79c129a0-6ac9-449c-aeef-ff7fdd330a69": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/BTS_2022.png",
-            "heading": "Back to School Sale",
-            "heading_size": "h1",
-            "subheading": "Save 10% on all musical gifts & novelty items!",
-            "button_label": "Shop Back to School",
-            "link": "shopify:\/\/collections\/novelty-items",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
+        "79c129a0-6ac9-449c-aeef-ff7fdd330a69",
         "16524586661290c3c8-1",
         "856815c8-09b3-4710-9bf8-cf503100b55a",
-        "16524586661290c3c8-0",
-        "79c129a0-6ac9-449c-aeef-ff7fdd330a69"
+        "16524586661290c3c8-0"
       ],
       "settings": {
         "layout": "full_bleed",
