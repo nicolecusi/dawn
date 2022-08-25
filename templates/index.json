@@ -482,6 +482,7 @@
       "blocks": {
         "1653496827f205b3d1-0": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection_heading": "Save on Bulk Orders",
             "collection_description": "<p>Get quantity discounts on select items. <\/p><p>Save up to 10% off dealer cost!<\/p>",
@@ -521,8 +522,8 @@
       ],
       "settings": {
         "heading": "",
-        "desktop_layout": "top",
-        "mobile_layout": "collage",
+        "desktop_layout": "column",
+        "mobile_layout": "column",
         "text_alignment": "left",
         "text_color": "#ffffff",
         "show_overlay": true,
@@ -547,7 +548,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Resources",
-            "button_link_1": "shopify:\/\/pages\/about-us",
+            "button_link_1": "shopify:\/\/pages\/dealer-resources",
             "button_style_secondary_1": false,
             "button_label_2": "Become a Dealer",
             "button_link_2": "shopify:\/\/pages\/become-a-dealer",

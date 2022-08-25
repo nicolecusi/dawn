@@ -22,7 +22,7 @@
             "text_style": "subtitle"
           }
         },
-        "11c79329-f8ed-4965-8892-42db0f59ef1d": {
+        "4f356ca3-3115-49cf-8c5b-d427d3b8a389": {
           "type": "sku",
           "settings": {
           }
@@ -32,7 +32,7 @@
           "settings": {
           }
         },
-        "4448773d-4901-419f-81f0-d13418df5096": {
+        "93460dfa-0880-4884-b62e-e37106407277": {
           "type": "msrp_map",
           "settings": {
           }
@@ -40,7 +40,7 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button"
+            "picker_type": "dropdown"
           }
         },
         "quantity_selector": {
@@ -54,10 +54,10 @@
             "show_dynamic_checkout": true
           }
         },
-        "06963ea3-dcdc-4188-bc1b-d17ef3044058": {
+        "2f8d68cc-ef98-4339-b685-89954cfdb3bd": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "",
+            "heading": "BAM Shipping Estimates",
             "icon": "box",
             "content": "",
             "page": "bam-cases-shipping-estimates"
@@ -73,19 +73,19 @@
         "vendor",
         "title",
         "caption",
-        "11c79329-f8ed-4965-8892-42db0f59ef1d",
+        "4f356ca3-3115-49cf-8c5b-d427d3b8a389",
         "price",
-        "4448773d-4901-419f-81f0-d13418df5096",
+        "93460dfa-0880-4884-b62e-e37106407277",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "06963ea3-dcdc-4188-bc1b-d17ef3044058",
+        "2f8d68cc-ef98-4339-b685-89954cfdb3bd",
         "description"
       ],
       "settings": {
-        "enable_sticky_info": true,
-        "gallery_layout": "thumbnail_slider",
-        "media_size": "small",
+        "enable_sticky_info": false,
+        "gallery_layout": "stacked",
+        "media_size": "large",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
