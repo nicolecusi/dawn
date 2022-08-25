@@ -548,7 +548,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Resources",
-            "button_link_1": "shopify:\/\/pages\/about-us",
+            "button_link_1": "shopify:\/\/pages\/dealer-resources",
             "button_style_secondary_1": false,
             "button_label_2": "Become a Dealer",
             "button_link_2": "shopify:\/\/pages\/become-a-dealer",

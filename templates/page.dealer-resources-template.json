@@ -1,59 +1,68 @@
 {
   "sections": {
-    "1659722900f88c929a": {
-      "type": "image-banner",
-      "disabled": true,
-      "blocks": {
-        "16597229006c0591a4-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "16597229006c0591a4-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "16597229006c0591a4-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "16597229006c0591a4-0",
-        "16597229006c0591a4-1",
-        "16597229006c0591a4-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/fiddle-and-bow-on-blue.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "main": {
       "type": "dealer-resources-template",
       "settings": {
         "padding_top": 56,
-        "padding_bottom": 28
+        "padding_bottom": 64
+      }
+    },
+    "1661268869882337fb": {
+      "type": "page",
+      "settings": {
+        "page": "seydel-repairmen",
+        "heading_size": "h2",
+        "color_scheme": "background-1",
+        "padding_top": 24,
+        "padding_bottom": 20
+      }
+    },
+    "1661268735889bab2e": {
+      "type": "collection-list",
+      "blocks": {
+        "1661268735c500682f-0": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": ""
+          }
+        },
+        "1661268735c500682f-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "novelty-items"
+          }
+        },
+        "5e103361-cca1-4cf4-af56-b5752a0e490e": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "clearance"
+          }
+        },
+        "1661268735c500682f-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "imperfect-instruments"
+          }
+        }
+      },
+      "block_order": [
+        "1661268735c500682f-0",
+        "1661268735c500682f-1",
+        "5e103361-cca1-4cf4-af56-b5752a0e490e",
+        "1661268735c500682f-2"
+      ],
+      "settings": {
+        "title": "Current Deals",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "165972270458c657c9": {
@@ -102,8 +111,9 @@
     }
   },
   "order": [
-    "1659722900f88c929a",
     "main",
+    "1661268869882337fb",
+    "1661268735889bab2e",
     "165972270458c657c9"
   ]
 }

@@ -22,10 +22,22 @@
   <h1 class="main-page-title page-title h0">
     {{ page.title | escape }}
   </h1>
-  <div class="rte">
-    {{ page.content }}
+    {% if customer %}
+      <div class="rte">
+        {{ page.content }}
+      </div>
+    {% else %}
+    <div class="pricing-unavailable">
+      <p>
+        Please login to your dealer account to view dealer resources.
+        <a class="contact-link animate-arrow" href="/account/login">Login<span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span></a>
+      </p>
+      <p>
+        Interested in becoming a dealer? <a class="contact-link animate-arrow" href="/pages/become-a-dealer-1">Become a dealer<span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span></a>
+      </p>
+    </div>
+    {% endif %}
   </div>
-</div>
 
 {% schema %}
 {

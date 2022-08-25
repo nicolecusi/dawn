@@ -104,9 +104,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our new store! Read about new changes here",
+              "text": "Welcome to our new online store! Read about the update here",
               "color_scheme": "accent-2",
-              "link": "shopify:\/\/pages\/privacy-policy"
+              "link": "https:\/\/counterpointmusic.ca\/pages\/website-update-august-25-2022"
             }
           }
         },
@@ -184,7 +184,8 @@
       "main-password-header": {
         "type": "main-password-header",
         "settings": {
-          "logo_max_width": 100,
+          "logo": "shopify:\/\/shop_images\/Counterpoint-Music_Logo-Dark.png",
+          "logo_max_width": 250,
           "color_scheme": "background-1"
         }
       },
