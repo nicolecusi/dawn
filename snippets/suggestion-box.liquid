@@ -1,0 +1,25 @@
+<div class="page-width--narrow">
+  <form id="suggestion_box" method="POST" action="https://script.google.com/macros/s/AKfycbyqfr-8OtfF1XpsWnwTHSI7iWLwi60uMp5_AGJPiFNP0m0Rd1q0uX3DDWXxNBEoTX2b/exec">
+    <h4>Suggestion Box</h4>
+    <p>Have a product you'd like to see in our catalogue or have an idea that you'd like to see on our website? Submit them here!</p>
+    <input type="hidden" name="Customer" value="{{ customer.first_name }} {{ customer.last_name }}" />
+    <input type="hidden" name="Customer_email" value="{{ customer.email }}" />
+    <input type="hidden" name="Company" value="{{ customer_address.company }}" />
+    <div class="field">
+      <textarea
+        rows="10"
+        id="ContactForm-body"
+        class="text-area field__input"
+        name="Suggestion"
+        placeholder="Suggestion box"
+      >
+        {{- form.body -}}
+      </textarea>
+      <label class="form__label field__label" for="ContactForm-body">Suggestion box</label>
+    </div>
+    <input type="hidden" name="Timestamp" value="{{ "now" | date: "%Y-%m-%d %H:%M" }}" />
+    <div class="contact__button">
+      <button type="submit" class="button">Submit</button>
+    </div>
+  </form>
+</div>

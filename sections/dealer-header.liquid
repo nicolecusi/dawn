@@ -1,0 +1,65 @@
+<link rel="stylesheet" href="{{ 'component-list-menu.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<noscript>{{ 'component-list-menu.css' | asset_url | stylesheet_tag }}</noscript>
+<style>
+  .dealer__inline-menu {
+    text-align: right;
+  }
+</style>
+
+<div class="header-wrapper color-{{ section.settings.color_scheme }}">
+  <div class="page-width">
+    <div class="header__inline-menu dealer__inline-menu">
+      <ul class="list-menu list-menu--inline" role="list">
+        {% for link in linklists[section.settings.dealer_menu].links %}
+        <li class="header__menu-item list-menu__item link focus-inset">
+          <a href="{{ link.url }}" class="list-menu__item link full-unstyled-link link--text focus-inset">{{ link.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Dealer menu",
+  "class": "section-header",
+  "settings": [
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "accent-1",
+          "label": "t:sections.all.colors.accent_1.label"
+        },
+        {
+          "value": "accent-2",
+          "label": "t:sections.all.colors.accent_2.label"
+        },
+        {
+          "value": "background-1",
+          "label": "t:sections.all.colors.background_1.label"
+        },
+        {
+          "value": "background-2",
+          "label": "t:sections.all.colors.background_2.label"
+        },
+        {
+          "value": "inverse",
+          "label": "t:sections.all.colors.inverse.label"
+        }
+      ],
+      "default": "background-1",
+      "label": "t:sections.all.colors.label"
+    },
+    {
+      "type": "link_list",
+      "id": "dealer_menu",
+      "default": "main-menu",
+      "label": "Dealer menu"
+    }
+  ]
+}
+{% endschema %}

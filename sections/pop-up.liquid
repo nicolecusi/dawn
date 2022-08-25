@@ -1,0 +1,133 @@
+{% if section.settings.enable_popup == true %}
+
+{{ 'collection-collage.css' | asset_url | stylesheet_tag }}
+{{ 'pop-up.css' | asset_url | stylesheet_tag }}
+{{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
+
+<script src="{{ 'pop-up.js' | asset_url }}" defer="defer"></script>
+
+{% assign close_button_color = section.settings.close_color %}
+<style>
+  .popup--close {
+    color: {{ close_button_color }};
+  }
+</style>
+
+<div id="PopUp" class="popup small-hide">
+  <div 
+    class="collection-collage-card" 
+    {% if section.settings.bg_image %}style="background-image: url('{{ section.settings.bg_image | image_url: width: 1200 }}')"{% endif %}
+  >
+    <a class="popup--close" id="PopUpClose">{% render 'icon-close' %}</a>
+    <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width">
+      <div class="banner__box color-{{ section.settings.color_scheme }}">
+        <h2 class="banner__heading h2">
+          <span>{{ section.settings.heading | escape }}</span>
+        </h2>
+        <div class="banner__text {{ section.settings.text_style }}">
+          {{ section.settings.description }}
+        </div>
+        <div class="banner__buttons">
+          {%- if section.settings.button_label != blank -%}
+            <a{% if section.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ section.settings.button_link }}"{% endif %} class="button{% if section.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}">{{ section.settings.button_label | escape }}</a>
+          {%- endif -%}
+        </div>
+      </div>
+    </div>
+  </div>  
+</div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Pop-up",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "enable_popup",
+      "label": "Enable pop-up",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description"
+    },
+    {
+      "type": "select",
+      "id": "desktop_content_position",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "image_picker",
+      "id": "bg_image",
+      "label": "Background image"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "accent-1",
+          "label": "t:sections.image-banner.settings.color_scheme.options__1.label"
+        },
+        {
+          "value": "accent-2",
+          "label": "t:sections.image-banner.settings.color_scheme.options__2.label"
+        },
+        {
+          "value": "background-1",
+          "label": "t:sections.image-banner.settings.color_scheme.options__3.label"
+        },
+        {
+          "value": "background-2",
+          "label": "t:sections.image-banner.settings.color_scheme.options__4.label"
+        },
+        {
+          "value": "inverse",
+          "label": "t:sections.image-banner.settings.color_scheme.options__5.label"
+        }
+      ],
+      "default": "background-1",
+      "label": "t:sections.image-banner.settings.color_scheme.label",
+      "info": "t:sections.image-banner.settings.color_scheme.info"
+    },
+    {
+      "type": "color",
+      "id": "close_color",
+      "label": "Close button colour",
+      "default": "#FFFFFF"
+    }
+  ]
+}
+{% endschema %}

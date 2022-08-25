@@ -195,6 +195,7 @@
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
+    {{ 'custom.css' | asset_url | stylesheet_tag }}
 
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
@@ -224,11 +225,12 @@
     {%- endif -%}
 
     {% section 'announcement-bar' %}
+    {%- if customer -%} {% section 'dealer-header' %} {%- endif -%}
     {% section 'header' %}
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
     </main>
-
+    {% section 'pop-up' %}
     {% section 'footer' %}
 
     <ul hidden>

@@ -27,6 +27,7 @@ class PredictiveSearch extends HTMLElement {
   }
 
   onChange() {
+    console.log("predictive-search: onChange");
     const searchTerm = this.getQuery();
 
     if (!searchTerm.length) {
@@ -120,6 +121,8 @@ class PredictiveSearch extends HTMLElement {
   }
 
   getSearchResults(searchTerm) {
+
+    console.log("predictive-search: getSearchResults");
     const queryKey = searchTerm.replace(" ", "-").toLowerCase();
     this.setLiveRegionLoadingState();
 
@@ -128,7 +131,7 @@ class PredictiveSearch extends HTMLElement {
       return;
     }
 
-    fetch(`${routes.predictive_search_url}?q=${encodeURIComponent(searchTerm)}&${encodeURIComponent('resources[type]')}=product&${encodeURIComponent('resources[limit]')}=4&section_id=predictive-search`)
+    fetch(`${routes.predictive_search_url}?q=${encodeURIComponent(searchTerm)}&${encodeURIComponent('resources[type]')}=product&${encodeURIComponent('resources[limit]')}=4&section_id=predictive-search&resources[options][unavailable_products]=hide&resources[options][fields]=variants.sku,title,product_type,variants.title`)
       .then((response) => {
         if (!response.ok) {
           var error = new Error(response.status);

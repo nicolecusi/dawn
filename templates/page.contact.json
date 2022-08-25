@@ -3,8 +3,8 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 52,
+        "padding_bottom": 8
       }
     },
     "form": {
@@ -16,10 +16,54 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1661181785e3f89206": {
+      "type": "image-with-text",
+      "blocks": {
+        "1661181785edc3be82-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Warehouse",
+            "heading_size": "h1"
+          }
+        },
+        "1661181785edc3be82-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>39 Riviera Drive<br\/>Markham, ON L3R 8N4<\/p><p>Monday-Friday: 8:30AM - 4:30PM<br\/>Weekends & Holidays: Closed<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1661181785edc3be82-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get directions",
+            "button_link": "https:\/\/www.google.com\/maps\/place\/39+Riviera+Dr,+Markham,+ON+L3R+8N4\/@43.8308899,-79.3481551,17z\/data=!3m1!4b1!4m5!3m4!1s0x89d4d484af11727d:0xb228744d46548d51!8m2!3d43.8308899!4d-79.3459664?shorturl=1"
+          }
+        }
+      },
+      "block_order": [
+        "1661181785edc3be82-0",
+        "1661181785edc3be82-1",
+        "1661181785edc3be82-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "accent-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "form"
+    "form",
+    "1661181785e3f89206"
   ]
 }

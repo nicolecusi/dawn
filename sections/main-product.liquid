@@ -220,26 +220,44 @@
               </a>
             </div>
           {%- when 'price' -%}
-            <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
-              {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
-            </div>
-            {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
-              <div class="product__tax caption rte">
-                {%- if shop.taxes_included -%}
-                  {{ 'products.product.include_taxes' | t }}
+            {% if customer %} 
+                <div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }} class="no-js-hidden">
+                  Dealer cost: {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
+                </div>
+                {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
+                  <div class="product__tax caption rte">
+                    {%- if shop.taxes_included -%}
+                      {{ 'products.product.include_taxes' | t }}
+                    {%- endif -%}
+                    {%- if shop.shipping_policy.body != blank -%}
+                      {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
+                    {%- endif -%}
+                  </div>
                 {%- endif -%}
-                {%- if shop.shipping_policy.body != blank -%}
-                  {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
-                {%- endif -%}
+                <div {{ block.shopify_attributes }}>
+                  {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
+                  {%- form 'product', product, id: product_form_installment_id, class: 'installment caption-large' -%}
+                    <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+                    {{ form | payment_terms }}
+                  {%- endform -%}
+                </div>
+            {% else %}
+              <div class="pricing-unavailable">
+                <p>
+                  Please login to your dealer account to view product pricing.
+                  <a class="contact-link animate-arrow" href="/account/login">Login<span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span></a>
+                </p>
+                <p>
+                  Interested in becoming a dealer? <a class="contact-link animate-arrow" href="/pages/become-a-dealer-1">Become a dealer<span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span></a>
+                </p>
               </div>
-            {%- endif -%}
-            <div {{ block.shopify_attributes }}>
-              {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
-              {%- form 'product', product, id: product_form_installment_id, class: 'installment caption-large' -%}
-                <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
-                {{ form | payment_terms }}
-              {%- endform -%}
-            </div>
+            {% endif %}
+          {%- when 'sku' -%}
+              {% render 'sku' %}
+          {%- when 'msrp_map' -%}
+            {% render 'msrp-map' with product %}
+          {%- when 'stock' -%}
+            {% render 'inventory-qty' with product %}
           {%- when 'description' -%}
             {%- if product.description != blank -%}
               <div class="product__description rte quick-add-hidden">
@@ -267,30 +285,35 @@
               </details>
             </div>
           {%- when 'quantity_selector' -%}
-            <div class="product-form__input product-form__quantity{% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} product-form__quantity-top{% endif %}" {{ block.shopify_attributes }}>
-              <label class="form__label" for="Quantity-{{ section.id }}">
-                {{ 'products.product.quantity.label' | t }}
-              </label>
-
-              <quantity-input class="quantity">
-                <button class="quantity__button no-js-hidden" name="minus" type="button">
-                  <span class="visually-hidden">{{ 'products.product.quantity.decrease' | t: product: product.title | escape }}</span>
-                  {% render 'icon-minus' %}
-                </button>
-                <input class="quantity__input"
-                    type="number"
-                    name="quantity"
-                    id="Quantity-{{ section.id }}"
-                    min="1"
-                    value="1"
-                    form="{{ product_form_id }}"
-                  >
-                <button class="quantity__button no-js-hidden" name="plus" type="button">
-                  <span class="visually-hidden">{{ 'products.product.quantity.increase' | t: product: product.title | escape }}</span>
-                  {% render 'icon-plus' %}
-                </button>
-              </quantity-input>
-            </div>
+            {% if customer %}          
+                <div class="product-form__input product-form__quantity{% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} product-form__quantity-top{% endif %}" {{ block.shopify_attributes }}>
+                  <label class="form__label" for="Quantity-{{ section.id }}">
+                    {{ 'products.product.quantity.label' | t }}
+                  </label>
+                  <div class="quantity_container">
+                    <quantity-input class="quantity">
+                      <button class="quantity__button no-js-hidden" name="minus" type="button">
+                        <span class="visually-hidden">{{ 'products.product.quantity.decrease' | t: product: product.title | escape }}</span>
+                        {% render 'icon-minus' %}
+                      </button>
+                      <input class="quantity__input"
+                          type="number"
+                          name="quantity"
+                          id="Quantity-{{ section.id }}"
+                          min="1"
+                          value="1"
+                          form="{{ product_form_id }}"
+                        >
+                      <button class="quantity__button no-js-hidden" name="plus" type="button">
+                        <span class="visually-hidden">{{ 'products.product.quantity.increase' | t: product: product.title | escape }}</span>
+                        {% render 'icon-plus' %}
+                      </button>
+                    </quantity-input>
+                    {% render 'inventory-qty' with product %}
+                      </div>
+                    </div>
+                  </div>
+            {% endif %}
           {%- when 'popup' -%}
               <modal-opener class="product-popup-modal__opener no-js-hidden quick-add-hidden" data-modal="#PopupModal-{{ block.id }}" {{ block.shopify_attributes }}>
                 <button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button link" type="button" aria-haspopup="dialog">{{ block.settings.text | default: block.settings.page.title }}</button>
@@ -410,6 +433,7 @@
               </div>
             </noscript>
           {%- when 'buy_buttons' -%}
+          {% if customer %}     
             <div {{ block.shopify_attributes }}>
               <product-form class="product-form">
                 <div class="product-form__error-message-wrapper" role="alert" hidden>
@@ -474,6 +498,7 @@
             </div>
 
             <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
+          {% endif %}
           {%- when 'rating' -%}
             {%- if product.metafields.reviews.rating.value != blank -%}
               {% liquid
@@ -583,6 +608,53 @@
     });
   </script>
 
+  {% capture 'variant_info' %}
+      {% for variant in product.variants %}
+      {
+        id: {{ variant.id | json }},
+        sku: {{ variant.sku | json }},
+        msrp: {{ variant.metafields.dealer.MSRP.value | times: 100 | money_with_currency | json }},
+        map: {{ variant.metafields.dealer.MAP.value | times: 100 | money_with_currency | json }},
+        stock: {{ variant.inventory_quantity | json }}
+      },
+      {% endfor %}
+  {% endcapture %}
+
+  <script>
+    // This is for updating dealer info (SKU, Price, & Stock)
+
+    const currentVariantID = {{ product.selected_or_first_available_variant.id }};
+    const variantInfo = [ {{ variant_info }} ];
+
+    const getDealerInfo = (id) => {
+      console.log("Updating dealer info for variant: " + id);
+      
+      const skuSelector = document.querySelector('.sku');
+      const msrpSelector = document.querySelector('.msrp');
+      const mapSelector = document.querySelector('.map');
+      const stockSelector = document.querySelector('.variant_inventory');
+      const hide = document.querySelector('.hideAll');
+
+      for(let i = 0; i < variantInfo.length; i++) {
+        console.log(variantInfo[i].id);
+
+        if(variantInfo[i].id == id) {
+          skuSelector.innerHTML = variantInfo[i].sku;
+          msrpSelector.innerHTML = variantInfo[i].msrp;
+          mapSelector.innerHTML = variantInfo[i].map;
+          if(variantInfo[i].stock > 3) {
+            stockSelector.innerHTML = '<span style="color:green">In stock</span>';
+          } else if (variantInfo[i].stock <= 3 && variantInfo[i].stock > 0) {
+            stockSelector.innerHTML = '<span style="color:orange">Low stock</span>';
+          } else {
+            stockSelector.innerHTML = '<span style="color:red">Not in stock</span>';
+          }
+        }
+      }
+    }
+    getDealerInfo(currentVariantID);
+  </script>
+
   {%- liquid
     if product.selected_or_first_available_variant.featured_media
       assign seo_media = product.selected_or_first_available_variant.featured_media
@@ -686,6 +758,21 @@
     {
       "type": "price",
       "name": "t:sections.main-product.blocks.price.name",
+      "limit": 1
+    },
+    {
+      "type": "msrp_map",
+      "name": "MSRP & MAP",
+      "limit": 1
+    },
+    {
+      "type": "sku",
+      "name": "SKU",
+      "limit": 1
+    },
+    {
+      "type": "stock",
+      "name": "Stock",
       "limit": 1
     },
     {

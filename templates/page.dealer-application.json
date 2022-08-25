@@ -1,0 +1,250 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 80,
+        "padding_bottom": 28
+      }
+    },
+    "1653509486e41f7a0d": {
+      "type": "image-banner",
+      "blocks": {
+        "16535094865bd081fa-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Are you interested in becoming a dealer?",
+            "heading_size": "h2"
+          }
+        },
+        "16535094865bd081fa-1": {
+          "type": "text",
+          "settings": {
+            "text": "Download the proper form below. Once you complete the form, please email it to music@counterpointmusic.ca in order to get set up with a dealer account",
+            "text_style": "body"
+          }
+        },
+        "16535094865bd081fa-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Canadian Dealer Application",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "American Dealer Application",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16535094865bd081fa-0",
+        "16535094865bd081fa-1",
+        "16535094865bd081fa-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Imperfect-Instruments.png",
+        "image_overlay_opacity": 40,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1653587999562ed442": {
+      "type": "multicolumn",
+      "blocks": {
+        "165358799838727e9b-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/about_us_icons_Dropship.png",
+            "title": "Drop Shipping Services",
+            "text": "<p>We offer drop shipping fulfillment services anywhere in Canada. Let us manage your shipping & handling!<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "165358799838727e9b-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/about_us_icons_Experts.png",
+            "title": "Expertise & Knowledge",
+            "text": "<p>Have a question or unsure of what product your customer needs? Our team of experts can help you find the answer.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "165358799838727e9b-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/about_us_icons_No_Minimum_Order.png",
+            "title": "No Minimum Orders",
+            "text": "<p>Think of us as your warehouse. We offer no minimum orders — order as often and as little as you need.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "89a2142e-8941-4136-9138-4054b880da81": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/location.png",
+            "title": "Same-Day Curbside Pickup",
+            "text": "<p>Submit your order before 2:00PM to pick up the same day. Save on shipping costs!<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165358799838727e9b-0",
+        "165358799838727e9b-1",
+        "165358799838727e9b-2",
+        "89a2142e-8941-4136-9138-4054b880da81"
+      ],
+      "settings": {
+        "title": "Our Benefits",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "circle",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "165350889298add380": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Best Sellers",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "american-landing-best-sellers",
+        "products_to_show": 5,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "165350878014a16ed6": {
+      "type": "collection-list",
+      "blocks": {
+        "1653508780d5167772-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "stentor"
+          }
+        },
+        "1653508780d5167772-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cukes"
+          }
+        },
+        "1653508780d5167772-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kun"
+          }
+        },
+        "cbe55493-98d6-4f73-a4a4-000fcb14a55c": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "everest"
+          }
+        },
+        "8afab17c-ebbb-4114-8329-a8eeaf12d598": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "pirastro"
+          }
+        },
+        "2a3db218-4c37-4618-9dbc-406dc1c44b30": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "wittner"
+          }
+        },
+        "eb39c9ba-1d86-43f7-a4b1-d5f7f66d6317": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "clarke-tin-whistles"
+          }
+        },
+        "3bc86cbb-81df-4a56-aa8e-4673d383d568": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "rovner"
+          }
+        },
+        "1399cfda-4531-49a1-8c7e-61784a1f8b5c": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "p-h-bows"
+          }
+        },
+        "384ac881-c8ff-4110-ab56-b774cccabced": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hora-1"
+          }
+        }
+      },
+      "block_order": [
+        "1653508780d5167772-0",
+        "1653508780d5167772-1",
+        "1653508780d5167772-2",
+        "cbe55493-98d6-4f73-a4a4-000fcb14a55c",
+        "8afab17c-ebbb-4114-8329-a8eeaf12d598",
+        "2a3db218-4c37-4618-9dbc-406dc1c44b30",
+        "eb39c9ba-1d86-43f7-a4b1-d5f7f66d6317",
+        "3bc86cbb-81df-4a56-aa8e-4673d383d568",
+        "1399cfda-4531-49a1-8c7e-61784a1f8b5c",
+        "384ac881-c8ff-4110-ab56-b774cccabced"
+      ],
+      "settings": {
+        "title": "Our Top Brands",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1653509486e41f7a0d",
+    "1653587999562ed442",
+    "165350889298add380",
+    "165350878014a16ed6"
+  ]
+}

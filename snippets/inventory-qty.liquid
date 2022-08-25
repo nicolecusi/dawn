@@ -1,0 +1,15 @@
+{% if customer %}
+  {%- if product.selected_or_first_available_variant.available and product.selected_or_first_available_variant.inventory_management == 'shopify' -%}
+    {% assign initialStock = product.selected_or_first_available_variant.inventory_quantity %}
+    {% capture initialStockMsg %}
+      {% if initialStock > 3 %}
+        <span style="color:green">In stock</span>
+      {% elsif initialStock <= 3 and initialStock >= 0 %}
+        <span style="color:orange">Low stock</span>
+      {% else %}
+        <span style="color:red">Not in stock</span>
+      {% endif %}
+    {% endcapture %}
+      <span class="variant_inventory">{{ initialStockMsg }}</span>
+  {%- endif -%}
+{% endif %}
