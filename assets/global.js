@@ -765,7 +765,12 @@ class VariantSelects extends HTMLElement {
       this.updateVariantInput();
       this.renderProductInfo();
       this.updateShareUrl();
+      this.updateDealerInfo();
     }
+  }
+
+  updateDealerInfo() {
+	  getDealerInfo(this.currentVariant.id);
   }
 
   updateOptions() {

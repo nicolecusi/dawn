@@ -187,3 +187,80 @@
 .collage .collage-card-spacing img {
   object-fit: contain;
 }
+
+.collection-collage-card__content {
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.collection-collage-card__content h3 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.collection-collage-card__content p {
+  margin: 0;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.collection-collage-card__content a {
+  margin-top: 2.5rem;
+}
+
+.collection-collage-card__overlay {
+  height: 100%;
+}
+
+.collection-collage {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.collection-collage--desktop-column {
+  grid-template-columns: 1fr;
+}
+
+.collection-collage--desktop-column > * {
+  width: 100%;
+}
+
+.collection-collage--desktop-row {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.collection-collage-card--left {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+}
+
+.collection-collage-card--right {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+}
+
+.collection-collage-card--top {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+
+.collection-collage-card--bottom {
+  grid-column: 1 / span 2;
+  grid-row: 2;
+}
+
+@media screen and (max-width: 749px) {
+  .collection-collage-card--top {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .collection-collage {
+    grid-template-columns: 1fr;
+  }
+}
