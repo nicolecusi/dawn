@@ -283,6 +283,12 @@
             "collection": "optima"
           }
         },
+        "52927d5c-b105-4b8c-8e3d-8c239ffaac6e": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ozark"
+          }
+        },
         "6c6873dd-84a9-418b-b2e4-d87a450ecc64": {
           "type": "featured_collection",
           "settings": {
@@ -342,12 +348,6 @@
           "settings": {
             "collection": "tony-dixon"
           }
-        },
-        "52927d5c-b105-4b8c-8e3d-8c239ffaac6e": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "ultra-pure"
-          }
         }
       },
       "block_order": [
@@ -355,6 +355,7 @@
         "1653589655650bb84b-1",
         "1653589655650bb84b-2",
         "2d844158-9d4d-47fd-8402-d2aa53f8ecfa",
+        "52927d5c-b105-4b8c-8e3d-8c239ffaac6e",
         "6c6873dd-84a9-418b-b2e4-d87a450ecc64",
         "baf3b195-b28f-4bcf-96f9-b73da9effe0b",
         "99b3e106-c0fb-46cb-9d92-d529af8e20c9",
@@ -364,8 +365,7 @@
         "5a5f9613-b97c-484e-bd5c-369c1a9fc12f",
         "fc7b25b3-d172-4a71-ad5f-df75ead3736b",
         "7274e52c-cd99-4075-972e-9c60d6a67bf8",
-        "971d510d-da1e-44a2-a9f6-c9e85c509f8c",
-        "52927d5c-b105-4b8c-8e3d-8c239ffaac6e"
+        "971d510d-da1e-44a2-a9f6-c9e85c509f8c"
       ],
       "settings": {
         "title": "",
@@ -383,6 +383,12 @@
     "16535901381dcd3140": {
       "type": "collection-list",
       "blocks": {
+        "03cacc19-9c77-4f2b-b369-afcd580e4bc3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ultra-pure"
+          }
+        },
         "0bf1fb01-ab01-4fdf-a00a-715b7f316655": {
           "type": "featured_collection",
           "settings": {
@@ -403,6 +409,7 @@
         }
       },
       "block_order": [
+        "03cacc19-9c77-4f2b-b369-afcd580e4bc3",
         "0bf1fb01-ab01-4fdf-a00a-715b7f316655",
         "16535901384287c16f-0",
         "16535901384287c16f-1"
