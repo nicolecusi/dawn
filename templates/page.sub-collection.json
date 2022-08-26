@@ -64,6 +64,12 @@
             "collection": "bg-france"
           }
         },
+        "0ad1c790-20d7-4d63-80d6-1e5982766053": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "boveda"
+          }
+        },
         "86d16476-6fd8-4927-a0c9-743cd975ef32": {
           "type": "featured_collection",
           "settings": {
@@ -93,12 +99,6 @@
           "settings": {
             "collection": "dolmetsch"
           }
-        },
-        "0ad1c790-20d7-4d63-80d6-1e5982766053": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "dont-fret"
-          }
         }
       },
       "block_order": [
@@ -111,12 +111,12 @@
         "0fb64202-9d48-47a4-84c0-114dd5d5aeb3",
         "b7b8f3c6-1525-473a-ba30-12e1109ce19e",
         "8d0d8284-1960-466e-b26a-9f105010978f",
+        "0ad1c790-20d7-4d63-80d6-1e5982766053",
         "86d16476-6fd8-4927-a0c9-743cd975ef32",
         "2085f154-b3c2-4cbf-9ae7-c197403b1d8e",
         "97eca539-28e4-4fa6-9662-08ac8eb3c5c5",
         "dd2eec52-08c8-4add-a676-6c0bb014297a",
-        "8188fa13-da05-4380-b349-e9b7ac3717c9",
-        "0ad1c790-20d7-4d63-80d6-1e5982766053"
+        "8188fa13-da05-4380-b349-e9b7ac3717c9"
       ],
       "settings": {
         "title": "",
@@ -134,6 +134,12 @@
     "1653492769d2c1cc24": {
       "type": "collection-list",
       "blocks": {
+        "c19ca926-c7b2-458f-aa2c-d2b85a2f6b19": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dont-fret"
+          }
+        },
         "1653492768c57cc1b8-0": {
           "type": "featured_collection",
           "settings": {
@@ -217,15 +223,10 @@
           "settings": {
             "collection": "marca"
           }
-        },
-        "c19ca926-c7b2-458f-aa2c-d2b85a2f6b19": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "dont-fret"
-          }
         }
       },
       "block_order": [
+        "c19ca926-c7b2-458f-aa2c-d2b85a2f6b19",
         "1653492768c57cc1b8-0",
         "1653492768c57cc1b8-1",
         "1653492768c57cc1b8-2",
@@ -239,8 +240,7 @@
         "66ff047e-9be4-4ce1-8c28-c7df463eef14",
         "0b8d8222-1003-4579-8596-8ab15a48f699",
         "ed18bb91-5ce7-4ba1-80da-82ba181067f1",
-        "8760b560-dcf8-4137-ba31-61668beecf8f",
-        "c19ca926-c7b2-458f-aa2c-d2b85a2f6b19"
+        "8760b560-dcf8-4137-ba31-61668beecf8f"
       ],
       "settings": {
         "title": "",
