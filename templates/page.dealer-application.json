@@ -133,7 +133,7 @@
         "description_style": "body",
         "collection": "american-landing-best-sellers",
         "products_to_show": 10,
-        "columns_desktop": 5,
+        "columns_desktop": 4,
         "full_width": false,
         "show_view_all": false,
         "view_all_style": "solid",
