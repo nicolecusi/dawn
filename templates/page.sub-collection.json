@@ -221,7 +221,7 @@
         "c19ca926-c7b2-458f-aa2c-d2b85a2f6b19": {
           "type": "featured_collection",
           "settings": {
-            "collection": "meinel"
+            "collection": "dont-fret"
           }
         }
       },
@@ -258,6 +258,12 @@
     "16535896552a830eab": {
       "type": "collection-list",
       "blocks": {
+        "971d510d-da1e-44a2-a9f6-c9e85c509f8c": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "meinel"
+          }
+        },
         "1653589655650bb84b-0": {
           "type": "featured_collection",
           "settings": {
@@ -341,15 +347,10 @@
           "settings": {
             "collection": "thomastik-infeld"
           }
-        },
-        "971d510d-da1e-44a2-a9f6-c9e85c509f8c": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "tony-dixon"
-          }
         }
       },
       "block_order": [
+        "971d510d-da1e-44a2-a9f6-c9e85c509f8c",
         "1653589655650bb84b-0",
         "1653589655650bb84b-1",
         "1653589655650bb84b-2",
@@ -363,8 +364,7 @@
         "50a21af4-1a1d-4a65-8daf-9d9345db1ecf",
         "5a5f9613-b97c-484e-bd5c-369c1a9fc12f",
         "fc7b25b3-d172-4a71-ad5f-df75ead3736b",
-        "7274e52c-cd99-4075-972e-9c60d6a67bf8",
-        "971d510d-da1e-44a2-a9f6-c9e85c509f8c"
+        "7274e52c-cd99-4075-972e-9c60d6a67bf8"
       ],
       "settings": {
         "title": "",
@@ -382,6 +382,12 @@
     "16535901381dcd3140": {
       "type": "collection-list",
       "blocks": {
+        "c7f7e9c9-c2ad-466d-add8-bec7ff0697b3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tony-dixon"
+          }
+        },
         "03cacc19-9c77-4f2b-b369-afcd580e4bc3": {
           "type": "featured_collection",
           "settings": {
@@ -408,6 +414,7 @@
         }
       },
       "block_order": [
+        "c7f7e9c9-c2ad-466d-add8-bec7ff0697b3",
         "03cacc19-9c77-4f2b-b369-afcd580e4bc3",
         "0bf1fb01-ab01-4fdf-a00a-715b7f316655",
         "16535901384287c16f-0",
