@@ -132,8 +132,8 @@
         "show_description": false,
         "description_style": "body",
         "collection": "american-landing-best-sellers",
-        "products_to_show": 8,
-        "columns_desktop": 4,
+        "products_to_show": 10,
+        "columns_desktop": 5,
         "full_width": false,
         "show_view_all": false,
         "view_all_style": "solid",
@@ -145,7 +145,7 @@
         "show_rating": false,
         "enable_quick_add": false,
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
