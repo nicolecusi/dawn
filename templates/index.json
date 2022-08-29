@@ -41,7 +41,6 @@
         },
         "856815c8-09b3-4710-9bf8-cf503100b55a": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_5.png",
             "heading": "Revelle Bows",
@@ -60,6 +59,7 @@
         },
         "16524586661290c3c8-0": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Desktop_-_1.png",
             "heading": "Gifts & Novelty Items",
