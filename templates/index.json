@@ -21,24 +21,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "16524586661290c3c8-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/089_Start_SSS_SE_2022_1_desktop_web.jpg",
-            "heading": "Seydel Session Steel Summer Edition 2022",
-            "heading_size": "h1",
-            "subheading": "Available for a limited time!",
-            "button_label": "Shop now",
-            "link": "shopify:\/\/products\/session-steel-summer-edition",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "856815c8-09b3-4710-9bf8-cf503100b55a": {
           "type": "slide",
           "settings": {
@@ -53,6 +35,24 @@
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 60,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "16524586661290c3c8-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/089_Start_SSS_SE_2022_1_desktop_web.jpg",
+            "heading": "Seydel Session Steel Summer Edition 2022",
+            "heading_size": "h1",
+            "subheading": "Available for a limited time!",
+            "button_label": "Shop now",
+            "link": "shopify:\/\/products\/session-steel-summer-edition",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
@@ -79,8 +79,8 @@
       },
       "block_order": [
         "79c129a0-6ac9-449c-aeef-ff7fdd330a69",
-        "16524586661290c3c8-1",
         "856815c8-09b3-4710-9bf8-cf503100b55a",
+        "16524586661290c3c8-1",
         "16524586661290c3c8-0"
       ],
       "settings": {
