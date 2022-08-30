@@ -97,6 +97,11 @@
     "predictive_search_show_price": false,
     "favicon": "shopify:\/\/shop_images\/BcnIIfmN2v.jpg",
     "currency_code_enabled": true,
+    "checkout_header_image": "shopify:\/\/shop_images\/Boveda_Placement_Classical_Guitar-Soundhole-_25450.jpg",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Counterpoint_Music_Logo_White.png",
+    "checkout_logo_size": "large",
+    "checkout_accent_color": "#911717",
+    "checkout_button_color": "#ac2222",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
