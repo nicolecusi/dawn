@@ -43,7 +43,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/location.png",
             "title": "10% off wholesale prices",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -53,7 +53,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/about_us_icons_No_Minimum_Order.png",
             "title": "No minimum orders",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Think of us as your warehouse. We offer no minimum orders — order as often and as little as you need.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -85,8 +85,8 @@
         "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -252,7 +252,7 @@
         "button_link": "#apply",
         "color_scheme": "background-2",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 56,
         "padding_bottom": 56
       }
