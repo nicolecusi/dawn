@@ -370,7 +370,7 @@ li.bss-qi-text-warning::before {
               BSS_B2B.qbTranslations = {"table_header_text":"Show discount details based on quantity range","table_qty_range_text":"Quantity Range","table_header_text_ab":"Show discount details based on amount range","table_amount_range_text":"Amount Range","table_discount_text":"Discount","flat_price_suffix":"per item","price_applied":"Price Applied"};
               BSS_B2B.qbSettings = {"qbType":0,"header_table_background":"#000000","text_header_table_color":"#ffffff","table_background_color":"#ffffff","text_table_color":"#000000","row_hover_background_color":"#a7a7a7","page_show_qb_table":["0","1","2"],"show_multiple_table":0};
               BSS_B2B.rfGeneralSettings = null;
-              BSS_B2B.shopModules = [{"code":"qb","status":1},{"code":"cp","status":1},{"code":"act","status":1},{"code":"form","status":0},{"code":"tax_exempt","status":1},{"code":"amo","status":1},{"code":"mc","status":1},{"code":"public_api","status":1},{"code":"dc","status":1},{"code":"cart_note","status":1},{"code":"mo","status":1},{"code":"tax_display","status":1},{"code":"sr","status":1},{"code":"bogo","status":1},{"code":"qi","status":1},{"code":"ef","status":1}];
+              BSS_B2B.shopModules = [{"code":"qb","status":1},{"code":"cp","status":1},{"code":"act","status":1},{"code":"form","status":0},{"code":"tax_exempt","status":0},{"code":"amo","status":1},{"code":"mc","status":1},{"code":"public_api","status":1},{"code":"dc","status":1},{"code":"cart_note","status":1},{"code":"mo","status":1},{"code":"tax_display","status":1},{"code":"sr","status":1},{"code":"bogo","status":1},{"code":"qi","status":1},{"code":"ef","status":1}];
               BSS_B2B.currencyConfig = {"id":191,"shop_id":97,"shop_domain":"counterpointmusic.myshopify.com","auto_location":0,"show_on_mobile":1,"show_on_desktop":1,"mobile_position":"top_left","desktop_position":"top_left","currency_list":"[{\"symbol\":\"$\",\"name\":\"US Dollar\",\"symbol_native\":\"$\",\"decimal_digits\":2,\"rounding\":0,\"class_name\":\"flags-United-States\",\"code\":\"USD\",\"name_plural\":\"US dollars\",\"money_format\":\"${{amount}}\",\"money_with_currency_format\":\"${{amount}} USD\"},{\"symbol\":\"CA$\",\"name\":\"Canadian Dollar\",\"symbol_native\":\"$\",\"decimal_digits\":2,\"rounding\":0,\"class_name\":\"flags-Canada\",\"code\":\"CAD\",\"name_plural\":\"Canadian dollars\",\"money_format\":\"${{amount}}\",\"money_with_currency_format\":\"${{amount}} CAD\"}]","show_all_currency":0,"show_cart_message":1,"cart_message":"All orders are processed in [checkout_currency], using the latest exchange rates.","cart_message_bg":"#ffffff","cart_message_color":"#000000","currency_bar_design":"flag_and_currency","currency_bar_bg":"#ffffff","currency_bar_text_color":"#000000","currency_bar_hover_color":"#f7f3f3","show_bar_shadow":"yes","round_price":0,"round_style":"remove_decimal","createdAt":"2022-07-07T13:19:47.000Z","updatedAt":"2022-07-07T13:19:47.000Z"};
               BSS_B2B.currencyFormat = bssCurrencyFormat;
               BSS_B2B.amoRules = [{"id":5204,"shop_id":97,"type":2,"priority":0,"minimum_quantity":"0.00","maximum_quantity":"0.00","apply_to":0,"customer_tags":"","product_condition_type":3,"product_ids":"","product_collections":"","product_tags":"Brand_Alhambra","quantityItemApplyRule":0,"amountItemApplyRule":0,"titleProductApplyRule":[],"exc_customer_tags":"Alhambra - QTY,Alhambra - B,Alhambra - A,Alhambra","exclude_from":1}];
@@ -388,20 +388,20 @@ li.bss-qi-text-warning::before {
               BSS_B2B.efTranslations = {"table_header_text":"Show extra fee based on quantity range","table_qty_range_text":"Quantity Range","table_header_text_ab":"Show extra fee based on amount range","table_amount_range_text":"Amount Range","free_ship":"Free ship","fee_applied":"Fee Applied"};
               BSS_B2B.srRules = [];
               BSS_B2B.bogoRule = [];
-              BSS_B2B.vatTranslations = {"form_header_text":"EU VAT ID","form_subtitle_text":"(VAT will be deducted at payment step)","form_error_message":"Please enter a valid EU VAT ID (e.g. DK123..., FR123...)","form_success_message":"Your VAT ID has been successfully validated.","form_validate_country_code_message":"Your country is not eligible for VAT Exemption in this store.","form_header_text_gst":"India GST Identification Number","form_subtitle_text_gst":"(India GST will be deducted at payment step)","form_error_message_gst":"Please enter a valid India GST Identification Number","form_success_message_gst":"Your India GST Identification Number has been successfully validated.","form_header_text_abn":"ABN Registration Number","form_subtitle_text_abn":"(ABN will be deducted at payment step)","form_error_message_abn":"Please enter a valid ABN Registration Number","form_success_message_abn":"Your ABN Registration Number has been successfully validated.","form_header_text_uk":"UK VAT Registration Number","form_subtitle_text_uk":"(UK VAT will be deducted at payment step)","form_error_message_uk":"Please enter a valid UK VAT Registration Number","form_success_message_uk":"Your UK VAT Registration Number has been successfully validated."};
+              BSS_B2B.vatTranslations = null;
               var bssB2bApiServer = "https://b2b-solution-api.bsscommerce.com";
               var bssB2bCmsUrl = "https://b2b-solution.bsscommerce.com";
-              var bssB2BIsRequiredVat = 0;
-              var bssB2BAutoExemptTax = 1;
-              var bssB2BAutoRedirectToCheckout = 0;
-              var bssB2BEnableSelectEUVATCountries = 0;
-              var bssB2BSelectedEUVATCountries = "AT,BE,BG,CY,CZ,DE,DK,EE,EL,ES,FI,FR,GB,HR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT-Portugal,RO,SE,SI,SK,XI";
-              var bssB2BEnableEuVat = 1;
-              var bssB2BEnableUkVat = 1;
-              var bssB2BEnableGst = 0;
-              var bssB2BEnableAbn = 0;
-              var bssB2BVatExemptSelectedOriginal = 0;
-              var bssB2BVatExemptSelected = 0;
+              var bssB2BIsRequiredVat = null;
+              var bssB2BAutoExemptTax = null;
+              var bssB2BAutoRedirectToCheckout = null;
+              var bssB2BEnableSelectEUVATCountries = null;
+              var bssB2BSelectedEUVATCountries = "";
+              var bssB2BEnableEuVat = null;
+              var bssB2BEnableUkVat = null;
+              var bssB2BEnableGst = null;
+              var bssB2BEnableAbn = null;
+              var bssB2BVatExemptSelectedOriginal = null;
+              var bssB2BVatExemptSelected = null;
             </script>
             <style type="text/css">
                             .checkout_button .action_button.add_to_cart{
