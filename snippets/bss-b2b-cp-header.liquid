@@ -403,7 +403,18 @@ li.bss-qi-text-warning::before {
               var bssB2BVatExemptSelectedOriginal = null;
               var bssB2BVatExemptSelected = null;
             </script>
-            <style type="text/css">
+            {% if template == "customers/register" %}
+                {% assign isApplyForceLogin = true %}
+                {% capture content_for_layout %}
+                    <p style="text-align: center;" id="bss-b2b-disabled-registration-form"> </p>
+                {% endcapture %}
+                {% endif %}
+            <style>
+                #customer_register_link,
+                .customer-login__register,
+                .account--register,
+                #customer_login .customer__link--centered {display: none !important;}
+            </style><style type="text/css">
                             .checkout_button .action_button.add_to_cart{
                                      cursor: not-allowed ;
                                      pointer-events: none;
@@ -430,7 +441,7 @@ li.bss-qi-text-warning::before {
                  BSS_B2B.formIdDef = 32;
                  BSS_B2B.reCAPCHA = 0;
                  BSS_B2B.CAPCHA_SITE_KEY = "6LcYPEgbAAAAAKEQdimI1PPA4vuOJHxNb5p6eLUo";
-                 BSS_B2B.status = 1;
+                 BSS_B2B.status = 0;
                  BSS_B2B.created_account = 2;
                  BSS_B2B.redirect_url = "/null";
                  BSS_B2B.taxExempt = 0;
