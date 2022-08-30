@@ -62,8 +62,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/about_us_icons_Experts_42c9e6a8-85d0-4151-a914-7cdc1ca68ed2.png",
-            "title": "Personal Service",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Personable Service",
+            "text": "<p>Have a question or unsure of what product your customer needs? Give us a call or email. We're here to help! <\/p>",
             "link_label": "",
             "link": ""
           }
@@ -80,7 +80,7 @@
         "image_width": "fourth",
         "image_ratio": "square",
         "columns_desktop": 3,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
