@@ -57,7 +57,7 @@
         "2f8d68cc-ef98-4339-b685-89954cfdb3bd": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "BAM Shipping Estimates",
+            "heading": "BAM Restocking ETA",
             "icon": "box",
             "content": "",
             "page": "bam-cases-shipping-estimates"
