@@ -457,7 +457,7 @@
         "1659722704e6828123-1": {
           "type": "text",
           "settings": {
-            "text": "<p><a href=\"mailto:music@counterpointmusic.ca\" target=\"_blank\" title=\"mailto:music@counterpointmusic.ca\">music@counterpointmusic.ca<\/a><\/p><p>39 Riviera Drive<br\/>Markham, ON L3R 8N4<\/p><p><\/p><p><strong>Our Hours<\/strong><\/p><p>Monday-Friday: 8:30AM - 4:30PM<br\/>Weekends & Holidays: Closed<\/p>",
+            "text": "<p>Toll-free: <a href=\"tel:+18006900515\" title=\"tel:+18006900515\">+1-800-690-0515<\/a><\/p><p>Email: <a href=\"mailto:music@counterpointmusic.ca\" target=\"_blank\" title=\"mailto:music@counterpointmusic.ca\">music@counterpointmusic.ca<\/a><\/p><p>39 Riviera Drive<br\/>Markham, ON L3R 8N4<\/p><p><\/p><p><strong>Our Hours<\/strong><\/p><p>Monday-Friday: 8:30AM - 4:30PM<br\/>Weekends & Holidays: Closed<\/p>",
             "text_style": "body"
           }
         },
@@ -475,7 +475,7 @@
         "2f317699-f626-4042-98a7-2b8e70b7fce3"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/decorated-chinese-store-front.jpg",
+        "image": "shopify:\/\/shop_images\/signal-2022-08-25-115640_002.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
