@@ -42,8 +42,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/location.png",
-            "title": "10% off wholesale prices",
-            "text": "",
+            "title": "10% Off Wholesale Prices",
+            "text": "<p>Luthiers get an additional 10% off wholesale prices our entire catalogue. Save on bridges, strings, cases, & more!<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -52,7 +52,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/about_us_icons_No_Minimum_Order.png",
-            "title": "No minimum orders",
+            "title": "No Minimum Orders",
             "text": "<p>Think of us as your warehouse. We offer no minimum orders — order as often and as little as you need.<\/p>",
             "link_label": "",
             "link": ""
