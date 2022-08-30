@@ -32,6 +32,11 @@
           "settings": {
           }
         },
+        "e3bbe904-386e-4892-8c61-1cd015901c46": {
+          "type": "msrp_map",
+          "settings": {
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -61,6 +66,7 @@
         "caption",
         "45d5d756-885a-4c00-8bb5-90d9bc87fc45",
         "price",
+        "e3bbe904-386e-4892-8c61-1cd015901c46",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
