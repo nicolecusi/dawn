@@ -54,6 +54,7 @@
                     id="{{ formId }}-password"
                     class="{% if form.errors contains 'password' %} input--error{% endif %}"
                     aria-required="true"
+                    placeholder="{{ 'customer.register.password' | t }}"
                     {%- if form.errors contains 'password' -%}
                         class="input--error"
                         aria-invalid="true"
