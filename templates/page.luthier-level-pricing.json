@@ -39,7 +39,8 @@
         "color_scheme": "accent-1",
         "full_width": true,
         "padding_top": 72,
-        "padding_bottom": 100
+        "padding_bottom": 100,
+        "margin_bottom": 56
       }
     },
     "1660074282e7ba2ce9": {
