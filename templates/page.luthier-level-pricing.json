@@ -1,7 +1,50 @@
 {
   "sections": {
+    "1662042547e51b9274": {
+      "type": "rich-text",
+      "blocks": {
+        "16620425479324aed0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Join our free Luthier Level Pricing program<\/p>",
+            "heading_size": "h0"
+          }
+        },
+        "16620425479324aed0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Calling all luthiers—save 10% off wholesale prices on our entire catalogue*! <\/p>"
+          }
+        },
+        "16620425479324aed0-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Apply now",
+            "button_link": "https:\/\/form.jotform.com\/222413701819047",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16620425479324aed0-0",
+        "16620425479324aed0-1",
+        "16620425479324aed0-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 72,
+        "padding_bottom": 100
+      }
+    },
     "1660074282e7ba2ce9": {
       "type": "luthier-sign-up",
+      "disabled": true,
       "blocks": {
         "166007428212342bec-0": {
           "type": "heading",
@@ -549,6 +592,7 @@
     }
   },
   "order": [
+    "1662042547e51b9274",
     "1660074282e7ba2ce9",
     "16600713894f1cf0f6",
     "1659722900f88c929a",
