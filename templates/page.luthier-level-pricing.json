@@ -341,7 +341,7 @@
         "16620429429519645a-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Trusted by many luthiers all over Canada<\/p>"
+            "text": "<p>Trusted by many luthiers all over Canada. Save 10% off on our entire catalogue*!<\/p>"
           }
         },
         "16620429429519645a-2": {
@@ -477,7 +477,7 @@
         "845cac07-6bc9-4dae-b369-f671f3c2bf71": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What is not included in the luthier discount?",
+            "heading": "What is not included in the luthier discount?*",
             "icon": "none",
             "row_content": "<p>Our only exception to the luthier discount is Thomastik-Infeld bulk strings. These are offered at net prices.<\/p>",
             "page": ""
