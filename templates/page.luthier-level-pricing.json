@@ -13,7 +13,7 @@
         "166007428212342bec-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Calling all luthiers—save 10% off wholesale prices on our entire catalogue! Apply now by entering your email and we will send you an application form.<\/p>"
+            "text": "<p>Calling all luthiers—save 10% off wholesale prices on our entire catalogue*! <\/p>"
           }
         },
         "166007428212342bec-2": {
@@ -43,7 +43,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/location.png",
             "title": "10% Off Wholesale Prices",
-            "text": "<p>Luthiers get an additional 10% off wholesale prices our entire catalogue. Save on bridges, strings, cases, & more!<\/p>",
+            "text": "<p>Luthiers get an additional 10% off wholesale prices our entire catalogue*. Save on bridges, strings, cases, & more!<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -260,7 +260,7 @@
     "165972454980c9b050": {
       "type": "featured-collection",
       "settings": {
-        "title": "Top Selling Products",
+        "title": "Featured products",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -405,6 +405,7 @@
         },
         "166005647896fecf81-3": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "Do you offer drop shipping services?",
             "icon": "none",
@@ -420,6 +421,15 @@
             "row_content": "<p>We are always looking to expand our catalogue to cater to our dealers needs. If you have any product or brand suggestions, please let us know and we will do our best to accomodate you!<\/p>",
             "page": ""
           }
+        },
+        "845cac07-6bc9-4dae-b369-f671f3c2bf71": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -427,7 +437,8 @@
         "980d362e-17ff-44f9-ae4b-ea97aa273076",
         "166005647896fecf81-1",
         "166005647896fecf81-3",
-        "166005647896fecf81-2"
+        "166005647896fecf81-2",
+        "845cac07-6bc9-4dae-b369-f671f3c2bf71"
       ],
       "settings": {
         "caption": "",
