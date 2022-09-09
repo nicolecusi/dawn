@@ -888,7 +888,7 @@ class VariantSelects extends HTMLElement {
     msrpMapSelector.classList.add('hidden');
     bssPrice.forEach((elem) => {
       elem.removeAttribute('style');
-    })
+    });
     if (price) price.classList.add('visibility-hidden');
   }
 
