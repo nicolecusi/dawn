@@ -646,8 +646,10 @@
             stockSelector.innerHTML = '<span style="color:green">In stock</span>';
           } else if (variantInfo[i].stock <= 3 && variantInfo[i].stock > 0) {
             stockSelector.innerHTML = '<span style="color:orange">Low stock</span>';
-          } else {
+          } else if (variantInfo[i].stock <= 0) {
             stockSelector.innerHTML = '<span style="color:red">Not in stock</span>';
+          } else {
+            stockSelector.innerHTML = '';
           }
         }
       }
