@@ -1,5 +1,5 @@
 <div class="page-width--narrow">
-  <form id="suggestion_box" method="POST" action="https://script.google.com/macros/s/AKfycbyqfr-8OtfF1XpsWnwTHSI7iWLwi60uMp5_AGJPiFNP0m0Rd1q0uX3DDWXxNBEoTX2b/exec">
+  <form id="suggestion_box" method="POST" action="https://script.google.com/macros/s/AKfycbxrYRZBpigThh1moeVBj2mn0LiDIrfbxM4P4AqhlrpwGaRbAPb12nsZbL8L73MtS-R6/exec">
     <h4>Suggestion Box</h4>
     <p>Have a product you'd like to see in our catalogue or have an idea that you'd like to see on our website? Submit them here!</p>
     <input type="hidden" name="Customer" value="{{ customer.first_name }} {{ customer.last_name }}" />
@@ -8,18 +8,44 @@
     <div class="field">
       <textarea
         rows="10"
-        id="ContactForm-body"
+        id="SuggestionForm-body"
         class="text-area field__input"
         name="Suggestion"
         placeholder="Suggestion box"
+        required
       >
         {{- form.body -}}
       </textarea>
-      <label class="form__label field__label" for="ContactForm-body">Suggestion box</label>
+      <label class="form__label field__label" for="SuggestionForm-body">Suggestion box</label>
     </div>
     <input type="hidden" name="Timestamp" value="{{ "now" | date: "%Y-%m-%d %H:%M" }}" />
     <div class="contact__button">
       <button type="submit" class="button">Submit</button>
     </div>
+    <p id="success-msg" class="hidden form-status form-status-list form__message" tabindex="-1" autofocus>{% render 'icon-success' %} We've received your suggestion submission. Thank you!</p>
   </form>
 </div>
+
+<script>
+  window.addEventListener("load", function() {
+    const form = document.getElementById('suggestion_box');
+    const url = 'https://script.google.com/macros/s/AKfycbxrYRZBpigThh1moeVBj2mn0LiDIrfbxM4P4AqhlrpwGaRbAPb12nsZbL8L73MtS-R6/exec';
+    const successMsg = document.getElementById('success-msg');
+    const suggestionBox = document.getElementById('SuggestionForm-body');
+  
+    form.addEventListener("submit", function(e) {
+      e.preventDefault();
+      const data = new FormData(form);
+      const action = url;
+      fetch(action, {
+        method: 'POST',
+        body: data,
+      })
+      .then(() => {
+        /*window.location = "/pages/thank-you";*/
+        successMsg.classList.remove("hidden");
+        suggestionBox.value = ""
+      })
+    });
+  });
+  </script>

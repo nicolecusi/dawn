@@ -1,5 +1,5 @@
 {% if customer %}
-  <div role="status" {{ block.shopify_attributes }} class="no-js-hidden 
+  <div role="status" {{ block.shopify_attributes }} class="price--msrp-map no-js-hidden 
     {% if product.vendor == 'Alhambra' %}{% unless customer.tags contains 'Alhambra' %} hidden{% endunless %}{% endif %}
       ">
       {% assign current_variant = product.selected_or_first_available_variant %}

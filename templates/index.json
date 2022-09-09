@@ -3,6 +3,43 @@
     "165245866675936f64": {
       "type": "slideshow",
       "blocks": {
+        "79c129a0-6ac9-449c-aeef-ff7fdd330a69": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BTS_2022.png",
+            "heading": "Back to School Sale",
+            "heading_size": "h1",
+            "subheading": "Save 10% on all musical gifts & novelty items!",
+            "button_label": "Shop Back to School",
+            "link": "shopify:\/\/collections\/novelty-items",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "856815c8-09b3-4710-9bf8-cf503100b55a": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Copy_of_Boveda_Placement_Viola-5074.jpg",
+            "heading": "Boveda Humidity Control Packs",
+            "heading_size": "h1",
+            "subheading": "The easy, maintenance-free solution for protecting your wooden instruments",
+            "button_label": "Shop now",
+            "link": "shopify:\/\/collections\/boveda",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 60,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "16524586661290c3c8-1": {
           "type": "slide",
           "settings": {
@@ -18,24 +55,6 @@
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "856815c8-09b3-4710-9bf8-cf503100b55a": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_5.png",
-            "heading": "Revelle Bows",
-            "heading_size": "h1",
-            "subheading": "Student tested. Teacher approved.",
-            "button_label": "Shop now",
-            "link": "shopify:\/\/collections\/revelle-1",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 30,
-            "color_scheme": "accent-2",
             "text_alignment_mobile": "center"
           }
         },
@@ -59,8 +78,9 @@
         }
       },
       "block_order": [
-        "16524586661290c3c8-1",
+        "79c129a0-6ac9-449c-aeef-ff7fdd330a69",
         "856815c8-09b3-4710-9bf8-cf503100b55a",
+        "16524586661290c3c8-1",
         "16524586661290c3c8-0"
       ],
       "settings": {
@@ -124,7 +144,7 @@
         "efa96e91-dd0b-49ce-acfe-67c16837b4b3"
       ],
       "settings": {
-        "title": "",
+        "title": "Our Advantages",
         "heading_size": "h2",
         "image_width": "third",
         "image_ratio": "square",
@@ -223,7 +243,7 @@
         "columns_desktop": 5,
         "color_scheme": "background-1",
         "show_view_all": false,
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 48,
         "padding_bottom": 60
@@ -250,7 +270,7 @@
         "show_vendor": true,
         "show_rating": false,
         "enable_quick_add": false,
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 28,
         "padding_bottom": 36
@@ -328,14 +348,14 @@
         "16536801144a3fe193-0": {
           "type": "heading",
           "settings": {
-            "heading": "Welcome to Counterpoint Music!",
+            "heading": "Welcome to Counterpoint Musical Services!",
             "heading_size": "h2"
           }
         },
         "16536801144a3fe193-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We are a Canadian wholesale musical distribution company established in 1994, dedicated to serving Canadian music retailers with fast, efficient, and friendly personal service. We are proud to represent quality products focusing primarily on band and orchestra instruments and accessories. <\/p>",
+            "text": "<p>We are a Canada's choice for wholesale musical distribution company established in 1994, dedicated to serving Canadian music retailers with fast, efficient, and friendly personal service. We are proud to represent quality products focusing primarily on band and orchestra instruments and accessories. <\/p>",
             "text_style": "body"
           }
         },
@@ -362,7 +382,7 @@
         "6d9b43fc-bf0e-49e1-84d0-696e7e437726"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/decorated-chinese-store-front.jpg",
+        "image": "shopify:\/\/shop_images\/signal-2022-08-25-115640_002.jpg",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -396,7 +416,7 @@
         "show_vendor": true,
         "show_rating": false,
         "enable_quick_add": false,
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
@@ -471,7 +491,7 @@
         "columns_desktop": 4,
         "color_scheme": "background-1",
         "show_view_all": false,
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
@@ -536,6 +556,7 @@
     },
     "16524621805aa4e3c9": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "165246218070c24c65-0": {
           "type": "heading",

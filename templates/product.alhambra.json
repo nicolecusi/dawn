@@ -40,7 +40,7 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "dropdown"
+            "picker_type": "button"
           }
         },
         "quantity_selector": {
@@ -76,8 +76,8 @@
         "enable_sticky_info": true,
         "gallery_layout": "thumbnail_slider",
         "media_size": "small",
-        "mobile_thumbnails": "hide",
-        "hide_variants": true,
+        "mobile_thumbnails": "show",
+        "hide_variants": false,
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 12
