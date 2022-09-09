@@ -32,10 +32,15 @@
           "settings": {
           }
         },
+        "e3bbe904-386e-4892-8c61-1cd015901c46": {
+          "type": "msrp_map",
+          "settings": {
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "dropdown"
+            "picker_type": "button"
           }
         },
         "quantity_selector": {
@@ -61,6 +66,7 @@
         "caption",
         "45d5d756-885a-4c00-8bb5-90d9bc87fc45",
         "price",
+        "e3bbe904-386e-4892-8c61-1cd015901c46",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
@@ -68,10 +74,10 @@
       ],
       "settings": {
         "enable_sticky_info": false,
-        "gallery_layout": "stacked",
-        "media_size": "large",
-        "mobile_thumbnails": "hide",
-        "hide_variants": true,
+        "gallery_layout": "thumbnail_slider",
+        "media_size": "small",
+        "mobile_thumbnails": "show",
+        "hide_variants": false,
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 12
@@ -87,7 +93,7 @@
         "color_scheme": "background-1",
         "image_ratio": "square",
         "show_secondary_image": true,
-        "show_vendor": false,
+        "show_vendor": true,
         "show_rating": false,
         "columns_mobile": "2",
         "padding_top": 36,
