@@ -883,7 +883,7 @@ class VariantSelects extends HTMLElement {
     const bssPrice = document.querySelectorAll('span[style]');
     if (!addButton) return;
     addButtonText.textContent = window.variantStrings.unavailable;
-    stockText.innerHTML = '';
+    stockText.innerHTML = 'This product is unavailable.';
     skuSelector.classList.add('hidden');
     msrpMapSelector.classList.add('hidden');
     bssPrice.forEach((elem) => {
