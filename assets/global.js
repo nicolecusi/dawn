@@ -876,9 +876,19 @@ class VariantSelects extends HTMLElement {
     const button = document.getElementById(`product-form-${this.dataset.section}`);
     const addButton = button.querySelector('[name="add"]');
     const addButtonText = button.querySelector('[name="add"] > span');
+    const stockText = document.querySelector('.variant_inventory');
+    const skuSelector = document.querySelector('.product-sku');
+    const msrpMapSelector = document.querySelector('.price--msrp-map');
     const price = document.getElementById(`price-${this.dataset.section}`);
+    const bssPrice = document.querySelectorAll('span[style]');
     if (!addButton) return;
     addButtonText.textContent = window.variantStrings.unavailable;
+    stockText.innerHTML = '';
+    skuSelector.classList.add('hidden');
+    msrpMapSelector.classList.add('hidden');
+    bssPrice.forEach((elem) => {
+      elem.removeAttribute('style');
+    })
     if (price) price.classList.add('visibility-hidden');
   }
 

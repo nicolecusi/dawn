@@ -644,14 +644,15 @@
           mapSelector.innerHTML = variantInfo[i].map;
           if(variantInfo[i].stock > 3) {
             stockSelector.innerHTML = '<span style="color:green">In stock</span>';
+            console.log("In stock");
           } else if (variantInfo[i].stock <= 3 && variantInfo[i].stock > 0) {
             stockSelector.innerHTML = '<span style="color:orange">Low stock</span>';
-          } else if (variantInfo[i].stock <= 0) {
-            stockSelector.innerHTML = '<span style="color:red">Not in stock</span>';
+            console.log("Low stock");
           } else {
-            stockSelector.innerHTML = '<span style="color:red"></span>';
+            stockSelector.innerHTML = '<span style="color:red">Not in stock</span>';
+            console.log("No stock");
           }
-        }
+        } 
       }
     }
     getDealerInfo(currentVariantID);
