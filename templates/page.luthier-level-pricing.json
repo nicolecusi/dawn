@@ -253,7 +253,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/location.png",
             "title": "1. Apply",
-            "text": "<p>Sign up on our form above and you will receive an email with an application form. Fill out the application and email it to music@counterpointmusic.ca<\/p>",
+            "text": "<p>Apply by clicking the button below and fill out our application form. <\/p>",
             "link_label": "",
             "link": ""
           }
