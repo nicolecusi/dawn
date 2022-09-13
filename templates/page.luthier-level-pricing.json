@@ -253,7 +253,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/location.png",
             "title": "1. Apply",
-            "text": "<p>Apply by clicking the button below and fill out our application form. <\/p>",
+            "text": "<p>Apply by clicking the button below and fill out our application form with valid information.<\/p>",
             "link_label": "",
             "link": ""
           }
