@@ -5,7 +5,6 @@
     .bss-qb-cart-subtotal,
     .price.price--end,
     .cart__final-price,
-    .cart__price,
     [data-subtotal],
     .cart-subtotal__price,
     [bss-b2b-item-original-price],
@@ -28,7 +27,13 @@
     .cart-item__total .cart-item__total__amount,
     .cart-item .cart-item__details .product-option,
     .cart-wrapper span.ymq-price-span,
+    {% if shop.permanent_domain == "scandipaws.myshopify.com" %}
+	.ajaxcart__product .ajaxcart__row .ajaxcart__price [bss-b2b-cart-item-key],
+	.cart__price [bss-b2b-cart-item-key],
+	{% else %}
 	.ajaxcart__product .ajaxcart__row .ajaxcart__price,
+	.cart__price,
+	{% endif %}
 	.drawer__footer.drawer__footer--fixed  .ajaxcart__price,
 	.cart__row #revy-cart-subtotal-price,
 	.cart-item-price .final-price.money,
@@ -37,12 +42,23 @@
     .cartTable--heading-price > .product-price > .order-discount,
     .drawer__contents .drawer__footer .ajaxcart__price,
     .cart-item .bss-b2b-compare-at-price,
-    .cart-item__price-wrapper .unit-price.caption
+    .cart-item__price-wrapper .unit-price.caption,
+    .product-info__inner .price,
+    .cart_meta_price .cart_price,
+    .price-review .price_range,
+    .widget_if_pr .price-search,
+    dd[data-cart-item-regular-price],
+    div[data-cart-item-regular-price-group] span[data-cart-item-regular-price],
+    div.subtotal p.subtotal-price span.cart-original-total span
     {
         display: none !important
     }
-
-    .cart-item > .cart-item__totals > .cart-item__price-wrapper > .price.price--end {
-      display: block !important
-    }
+    {% if shop.permanent_domain == "chef-morel.myshopify.com" %}
+        .cart-item > .cart-item__totals > .cart-item__price-wrapper > .price.price--end {
+            display: block !important
+        }
+        .cart-item__price-wrapper > .unit-price.caption {
+            display: block !important
+        }
+    {% endif %}
 </style>{% endif %}
