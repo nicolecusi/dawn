@@ -5,19 +5,18 @@
       "blocks": {
         "79c129a0-6ac9-449c-aeef-ff7fdd330a69": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/BTS_2022.png",
-            "heading": "Back to School Sale",
-            "heading_size": "h1",
-            "subheading": "Save 10% on all musical gifts & novelty items!",
-            "button_label": "Shop Back to School",
+            "image": "shopify:\/\/shop_images\/colored-pencils-crayons-school.jpg",
+            "heading": "Flash Sale",
+            "heading_size": "h0",
+            "subheading": "Save 10% on musical school supplies & more!",
+            "button_label": "Shop now",
             "link": "shopify:\/\/collections\/novelty-items",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
-            "image_overlay_opacity": 0,
+            "image_overlay_opacity": 60,
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
@@ -60,6 +59,7 @@
         },
         "16524586661290c3c8-0": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Desktop_-_1.png",
             "heading": "Gifts & Novelty Items",
