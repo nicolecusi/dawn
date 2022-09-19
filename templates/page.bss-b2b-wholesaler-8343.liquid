@@ -1,6 +1,6 @@
 {{ 'customer.css' | asset_url | stylesheet_tag }}
 
-{% if true %}{{ 'bss-b2b-state.js' | asset_url | script_tag }}{% endif %}<script id="bss-b2b-wholesaler-form">
+{{ 'bss-b2b-state.js' | asset_url | script_tag }}<script id="bss-b2b-wholesaler-form">
                 if (typeof BSS_B2B == 'undefined') {
                   var BSS_B2B = {};
                 }
