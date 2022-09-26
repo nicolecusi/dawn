@@ -8,37 +8,6 @@
         "padding_bottom": 28
       }
     },
-    "16642006190c7d25e3": {
-      "type": "rich-text",
-      "blocks": {
-        "1664200619cd5d5281-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Canadian Classroom String Giveaway<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "1664200619cd5d5281-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Our 2021 Annual Canadian Classroom String Giveaway is closed. Don't forget to follow us on Instagram & Facebook to be notified of our next giveaway. Stay tuned!<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1664200619cd5d5281-0",
-        "1664200619cd5d5281-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 68,
-        "padding_bottom": 68,
-        "margin_bottom": 0
-      }
-    },
     "1664200909cbd5d461": {
       "type": "image-banner",
       "blocks": {
@@ -52,17 +21,17 @@
         "16642009099c8cb965-1": {
           "type": "text",
           "settings": {
-            "text": "Our 2021 Annual Canadian Classroom String Giveaway is closed. Follow us on Instagram & Facebook to be notified of our next giveaway. Stay tuned!",
+            "text": "Our 2021 Annual Canadian Classroom String Giveaway is closed. Follow us on Facebook & Instagram to be notified of our next giveaway. Stay tuned!",
             "text_style": "body"
           }
         },
         "16642009099c8cb965-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
+            "button_label_1": "Facebook",
             "button_link_1": "",
             "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_label_2": "Instagram",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
@@ -90,7 +59,6 @@
   },
   "order": [
     "main",
-    "16642006190c7d25e3",
     "1664200909cbd5d461"
   ]
 }
