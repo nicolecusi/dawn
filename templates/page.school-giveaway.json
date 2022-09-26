@@ -38,10 +38,59 @@
         "padding_bottom": 68,
         "margin_bottom": 0
       }
+    },
+    "1664200909cbd5d461": {
+      "type": "image-banner",
+      "blocks": {
+        "16642009099c8cb965-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Annual Canadian Classroom String Giveaway",
+            "heading_size": "h1"
+          }
+        },
+        "16642009099c8cb965-1": {
+          "type": "text",
+          "settings": {
+            "text": "Our 2021 Annual Canadian Classroom String Giveaway is closed. Follow us on Instagram & Facebook to be notified of our next giveaway. Stay tuned!",
+            "text_style": "body"
+          }
+        },
+        "16642009099c8cb965-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16642009099c8cb965-0",
+        "16642009099c8cb965-1",
+        "16642009099c8cb965-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Leading_Note_Orkidstra.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "main",
-    "16642006190c7d25e3"
+    "16642006190c7d25e3",
+    "1664200909cbd5d461"
   ]
 }
