@@ -2,13 +2,46 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "16642006190c7d25e3": {
+      "type": "rich-text",
+      "blocks": {
+        "1664200619cd5d5281-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Canadian Classroom String Giveaway<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1664200619cd5d5281-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our 2021 Annual Canadian Classroom String Giveaway is closed. Stay tuned for next year!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1664200619cd5d5281-0",
+        "1664200619cd5d5281-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16642006190c7d25e3"
   ]
 }
