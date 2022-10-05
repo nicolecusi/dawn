@@ -42,13 +42,14 @@
         },
         "16524586661290c3c8-1": {
           "type": "slide",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/089_Start_SSS_SE_2022_1_desktop_web.jpg",
-            "heading": "Seydel Session Steel Summer Edition 2022",
+            "image": "shopify:\/\/shop_images\/Cropped_Resonator_Guitar_Body.png",
+            "heading": "Ozark",
             "heading_size": "h1",
-            "subheading": "Available for a limited time!",
+            "subheading": "Different by Design",
             "button_label": "Shop now",
-            "link": "shopify:\/\/products\/session-steel-summer-edition",
+            "link": "shopify:\/\/collections\/ozark",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
