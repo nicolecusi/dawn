@@ -31,9 +31,9 @@
             "button_label_1": "Sign up",
             "button_link_1": "https:\/\/form.jotform.com\/222694848938072",
             "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label_2": "Giveaway Rules",
+            "button_link_2": "shopify:\/\/pages\/school-giveaway-rules",
+            "button_style_secondary_2": true
           }
         }
       },
