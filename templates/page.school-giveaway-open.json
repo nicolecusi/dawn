@@ -1,13 +1,5 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
-      }
-    },
     "79d07262-30e0-44c0-85b9-673988dcac1b": {
       "type": "image-banner",
       "blocks": {
@@ -55,10 +47,106 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "daab7045-3b5d-4b70-b90d-efd034e171cb": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16559361589488__daab7045-3b5d-4b70-b90d-efd034e171cb-1664979380c994767f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16559361589488__daab7045-3b5d-4b70-b90d-efd034e171cb-1664979380c994767f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Counterpoint Music, we understand the important role a musical education plays in the overall development of a child. In these strained financial times, we want to do our part to make sure as many children as possible have access to music.<br\/>To this end, we are giving away to a publicly funded elementary or secondary school in Canada (not including Quebec), a classroom set of Stentor orchestral string instruments consisting of 12 violins, 4 violas, and 2 cellos, as well as a bonus set of Thomastik-Infeld Alphyue strings for each instrument — an approximate retail value of $9600! The lucky winning classroom will have the option to choose the instrument sizes & either January or September 2022 to receive delivery.<br\/>Our Classroom Giveaway will run from Friday, October 22, 2021 to Friday, December 10, 2021. To win, you must fill out the form with your complete, valid information before the deadline. The winner will be announced within three business days of the giveaway deadline.<br\/>The winner will be notified by email, so be sure to include your best email on the form.<br\/>Don’t miss out on this amazing Giveaway from Counterpoint Music. Enter now!<\/p>"
+          }
+        },
+        "template--16559361589488__daab7045-3b5d-4b70-b90d-efd034e171cb-1664979380c994767f-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16559361589488__daab7045-3b5d-4b70-b90d-efd034e171cb-1664979380c994767f-0",
+        "template--16559361589488__daab7045-3b5d-4b70-b90d-efd034e171cb-1664979380c994767f-1",
+        "template--16559361589488__daab7045-3b5d-4b70-b90d-efd034e171cb-1664979380c994767f-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "margin_bottom": 0
+      }
+    },
+    "5abe1d18-fb25-446f-ae7f-a9bdc88ba284": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16559361589488__5abe1d18-fb25-446f-ae7f-a9bdc88ba284-1664979380d4df6903-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "2021 Winners: Cunard Junior High",
+            "heading_size": "h2"
+          }
+        },
+        "template--16559361589488__5abe1d18-fb25-446f-ae7f-a9bdc88ba284-1664979380d4df6903-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16559361589488__5abe1d18-fb25-446f-ae7f-a9bdc88ba284-1664979380d4df6903-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16559361589488__5abe1d18-fb25-446f-ae7f-a9bdc88ba284-1664979380d4df6903-0",
+        "template--16559361589488__5abe1d18-fb25-446f-ae7f-a9bdc88ba284-1664979380d4df6903-1",
+        "template--16559361589488__5abe1d18-fb25-446f-ae7f-a9bdc88ba284-1664979380d4df6903-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_8816.jpg",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
+    "79d07262-30e0-44c0-85b9-673988dcac1b",
     "main",
-    "79d07262-30e0-44c0-85b9-673988dcac1b"
+    "daab7045-3b5d-4b70-b90d-efd034e171cb",
+    "5abe1d18-fb25-446f-ae7f-a9bdc88ba284"
   ]
 }
