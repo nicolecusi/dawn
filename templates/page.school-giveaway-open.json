@@ -27,10 +27,10 @@
         "template--16559361589488__79d07262-30e0-44c0-85b9-673988dcac1b-16649749320d134203-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
+            "button_label_1": "Sign up",
+            "button_link_1": "https:\/\/form.jotform.com\/222694848938072",
             "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
@@ -42,6 +42,7 @@
         "template--16559361589488__79d07262-30e0-44c0-85b9-673988dcac1b-16649749320d134203-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Leading_Note_Orkidstra.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
