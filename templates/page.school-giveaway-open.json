@@ -58,10 +58,18 @@
     "5abe1d18-fb25-446f-ae7f-a9bdc88ba284": {
       "type": "image-with-text",
       "blocks": {
+        "d5cf2809-6da9-4e9a-ad3e-66fc2d70e5c8": {
+          "type": "caption",
+          "settings": {
+            "caption": "2021 Winners",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
         "template--16559361589488__5abe1d18-fb25-446f-ae7f-a9bdc88ba284-1664979380d4df6903-0": {
           "type": "heading",
           "settings": {
-            "heading": "2021 Winners: Cunard Junior High",
+            "heading": "Cunard Junior High",
             "heading_size": "h2"
           }
         },
@@ -71,29 +79,22 @@
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "text_style": "body"
           }
-        },
-        "template--16559361589488__5abe1d18-fb25-446f-ae7f-a9bdc88ba284-1664979380d4df6903-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
+        "d5cf2809-6da9-4e9a-ad3e-66fc2d70e5c8",
         "template--16559361589488__5abe1d18-fb25-446f-ae7f-a9bdc88ba284-1664979380d4df6903-0",
-        "template--16559361589488__5abe1d18-fb25-446f-ae7f-a9bdc88ba284-1664979380d4df6903-1",
-        "template--16559361589488__5abe1d18-fb25-446f-ae7f-a9bdc88ba284-1664979380d4df6903-2"
+        "template--16559361589488__5abe1d18-fb25-446f-ae7f-a9bdc88ba284-1664979380d4df6903-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/IMG_8816_815998fc-25ce-42f8-8837-36627356e756.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
