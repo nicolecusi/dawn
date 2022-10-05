@@ -42,7 +42,6 @@
         },
         "16524586661290c3c8-1": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Cropped_Resonator_Guitar_Body.png",
             "heading": "Ozark",
@@ -52,16 +51,15 @@
             "link": "shopify:\/\/collections\/ozark",
             "button_style_secondary": false,
             "box_align": "middle-center",
-            "show_text_box": true,
+            "show_text_box": false,
             "text_alignment": "center",
-            "image_overlay_opacity": 0,
+            "image_overlay_opacity": 40,
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
         },
         "16524586661290c3c8-0": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Desktop_-_1.png",
             "heading": "Gifts & Novelty Items",
