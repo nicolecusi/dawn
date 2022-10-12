@@ -3,7 +3,10 @@
     .bss-qb-total-price-item,
     .totals__subtotal-value,
     .bss-qb-cart-subtotal,
+    {% if shop.permanent_domain != "wiedemann-manufaktur.myshopify.com" %}
     .price.price--end,
+    .cart-item .cart-item__details .product-option,
+    {% endif %}
     .cart__final-price,
     [data-subtotal],
     .cart-subtotal__price,
@@ -25,7 +28,6 @@
     .cart-item__price__amount .theme-money.struck-out-price,
     .cart-item__price__amount .cart-item__price-current,
     .cart-item__total .cart-item__total__amount,
-    .cart-item .cart-item__details .product-option,
     .cart-wrapper span.ymq-price-span,
     {% if shop.permanent_domain == "scandipaws.myshopify.com" %}
 	.ajaxcart__product .ajaxcart__row .ajaxcart__price [bss-b2b-cart-item-key],
@@ -51,8 +53,7 @@
     div[data-cart-item-regular-price-group] span[data-cart-item-regular-price],
     div.subtotal p.subtotal-price span.cart-original-total span,
     .product-price__price.regular,
-    .cart-table .cart__price-unit-price,
-    .cart-items .cart-item__details > div.product-option
+    .cart-table .cart__price-unit-price
     {
         display: none !important
     }
