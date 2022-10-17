@@ -2331,11 +2331,9 @@ function _97_customize(app) {
             let observer = new MutationObserver(function (mutations) {
                 mutations.forEach(function (m) {
                     if (m.addedNodes.length) {
-                        if (appliedCP) {
-                            setTimeout(() => {
-                                app.cp.changeProductPrice(shopData, false, false);
-                            }, 1000)
-                        }
+                        setTimeout(() => {
+                            app.cp.changeProductPrice(shopData, false, false);
+                        }, 1000)
                     }
                 });
             });
