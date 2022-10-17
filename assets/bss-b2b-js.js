@@ -29288,7 +29288,7 @@ function MergeInitFunction(jQueryObj){
             initRegistrationMiniForm(jQueryObj, BSS_B2B, shopData, isEnableRg)
         }
         else {
-            // eslint-disable-next-line no-console
+            // eslint-disable-next-line no-console   
             console.log('init registration form');
             initRegistrationForm(jQueryObj, BSS_B2B, shopData, isEnableRg);
         }
