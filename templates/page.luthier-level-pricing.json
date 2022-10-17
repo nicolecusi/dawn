@@ -479,7 +479,7 @@
           "settings": {
             "heading": "What is not included in the luthier discount?*",
             "icon": "none",
-            "row_content": "<p>Our only exception to the luthier discount is Thomastik-Infeld bulk strings. These are offered at net prices.<\/p>",
+            "row_content": "<p>Our only exception to the luthier discount is Thomastik-Infeld bulk strings and clearance items. These are offered at net prices.<\/p>",
             "page": ""
           }
         }
