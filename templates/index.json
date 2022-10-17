@@ -504,11 +504,11 @@
           "type": "collection",
           "disabled": true,
           "settings": {
-            "collection_heading": "Save on Bulk Orders",
-            "collection_description": "<p>Get quantity discounts on select items. <\/p><p>Save up to 10% off dealer cost!<\/p>",
-            "collection": "stentor",
+            "collection_heading": "Join our Luthier Level Pricing program",
+            "collection_description": "<p>Luthiers save 10% off wholesale prices. It's free to join!<\/p>",
+            "collection": "",
             "bg_image": "shopify:\/\/shop_images\/violin-body-on-black.jpg",
-            "button_label": "Shop in Bulk",
+            "button_label": "Learn more",
             "button_style_secondary": false
           }
         },
