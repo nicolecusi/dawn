@@ -19,6 +19,7 @@
         },
         "1661268735c500682f-1": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "novelty-items"
           }
