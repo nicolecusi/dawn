@@ -7,16 +7,6 @@
         "padding_bottom": 64
       }
     },
-    "1661268869882337fb": {
-      "type": "page",
-      "settings": {
-        "page": "seydel-repair-service-partners",
-        "heading_size": "h2",
-        "color_scheme": "background-1",
-        "padding_top": 24,
-        "padding_bottom": 20
-      }
-    },
     "1661268735889bab2e": {
       "type": "collection-list",
       "blocks": {
@@ -96,7 +86,7 @@
         "2f317699-f626-4042-98a7-2b8e70b7fce3"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/decorated-chinese-store-front.jpg",
+        "image": "shopify:\/\/shop_images\/signal-2022-08-25-115640_002.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
