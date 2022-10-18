@@ -11,7 +11,9 @@
     [data-subtotal],
     .cart-subtotal__price,
     [bss-b2b-item-original-price],
+    {% if shop.permanent_domain != "brazil-beauty-brands.myshopify.com" %}
     [bss-b2b-final-line-price],
+    {% endif %}
     [bss-b2b-original-line-price],
     [bss-b2b-cart-total-price],
     .bss-qb-price-item,
@@ -55,7 +57,9 @@
     .product-price__price.regular,
     .cart-table .cart__price-unit-price,
     .cart-item .cart-item--content .cart-item--content-price .money  > span,
-    .cart-item .cart-item--inner .cart-item--info .cart-item--total .money > span
+    .cart-item .cart-item--inner .cart-item--info .cart-item--total .money > span,
+    .t4s-cart-item-price,
+    .t4s-cart_price
     {
         display: none !important
     }
