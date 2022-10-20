@@ -917,7 +917,7 @@ customElements.define('variant-radios', VariantRadios);
 
 const changeVariantElement = document.querySelector('variant-selects.no-js-hidden');
 console.log('changeVariantElement', changeVariantElement)
-changeVariantElement.change(function () {
+changeVariantElement.onchange(function () {
 const el = document.querySelector('body');
   el.scrollTop = el.scrollHeight;
 setTimeout(function(){
