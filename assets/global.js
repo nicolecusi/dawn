@@ -915,7 +915,8 @@ class VariantRadios extends VariantSelects {
 
 customElements.define('variant-radios', VariantRadios);
 
-const changeVariantElement = document.querySelector('.product-form__input .select .select__select');
+const changeVariantElement = document.querySelector('variant-selects.no-js-hidden');
+console.log('changeVariantElement', changeVariantElement)
 changeVariantElement.change(function () {
 const el = document.querySelector('body');
 setTimeout(function(){
