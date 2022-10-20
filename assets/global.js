@@ -919,7 +919,9 @@ const changeVariantElement = document.querySelector('variant-selects.no-js-hidde
 console.log('changeVariantElement', changeVariantElement)
 changeVariantElement.change(function () {
 const el = document.querySelector('body');
+  el.scrollTop = el.scrollHeight;
 setTimeout(function(){
+  console.log('aaaaa')
   el.scrollTop = 0;
 }, 500);
 });
