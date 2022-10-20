@@ -1,6 +1,6 @@
-{{ 'customer.css' | asset_url | stylesheet_tag }}
-{{ 'bss-b2b-state.js' | asset_url | script_tag }}
-<script id="bss-b2b-wholesaler-form">
+
+	{{ 'bss-b2b-state.js' | asset_url | script_tag }}
+	<script id="bss-b2b-wholesaler-form">
     if (typeof BSS_B2B == 'undefined') {
       var BSS_B2B = {};
     }
@@ -16,13 +16,16 @@
 	<style>null</style>
 	
     {% assign bss-b2b-include-password = true %}
-<div class="customer luthier register">
-  <h1>{{ page.title }}</h1>
-  <div class="rte">
-    {{ page.content }}
-  </div>
-  <div>
-  {% section 'bss-b2b-wholesaler-form-9141' %}
+<div class="page-width">
+  <div class="grid">
+    <div class="grid__item medium-up--five-sixths medium-up--push-one-twelfth">
+      <div class="section-header text-center">
+        <h1>{{ page.title }}</h1>
+      </div>
+      <div class="rte">
+        {{ page.content }}
+      </div>
+    </div>
+    {% section 'bss-b2b-wholesaler-form-9141' %}
   </div>
 </div>
-
