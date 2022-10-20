@@ -914,3 +914,11 @@ class VariantRadios extends VariantSelects {
 }
 
 customElements.define('variant-radios', VariantRadios);
+
+const changeVariantElement = document.querySelector('.product-form__input .select .select__select');
+changeVariantElement.change(function () {
+const el = document.querySelector('body');
+setTimeout(function(){
+  el.scrollTop = 0;
+}, 500);
+});
