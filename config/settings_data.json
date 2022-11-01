@@ -110,12 +110,11 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Welcome to our new online store! Read about the update here",
+              "text": "Are you a music teacher? Enter our 2022 Annual Canadian Classroom String Giveaway",
               "text_alignment": "center",
               "color_scheme": "accent-2",
-              "link": "https:\/\/counterpointmusic.ca\/pages\/website-update-august-25-2022"
+              "link": "shopify:\/\/pages\/school-string-giveaway"
             }
           }
         },
