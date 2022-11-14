@@ -5,14 +5,13 @@
       "blocks": {
         "79c129a0-6ac9-449c-aeef-ff7fdd330a69": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/colored-pencils-crayons-school.jpg",
-            "heading": "Flash Sale",
+            "image": "shopify:\/\/shop_images\/top-of-violin-on-music-sheets.jpg",
+            "heading": "Black Friday Sale",
             "heading_size": "h0",
-            "subheading": "Save 10% on musical school supplies & more!",
+            "subheading": "Save up to 10% on best sellers & get FREE freight on orders over $600!",
             "button_label": "Shop now",
-            "link": "shopify:\/\/collections\/novelty-items",
+            "link": "shopify:\/\/collections\/black-friday-sale",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
@@ -60,6 +59,7 @@
         },
         "16524586661290c3c8-0": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Desktop_-_1.png",
             "heading": "Gifts & Novelty Items",
