@@ -8,7 +8,10 @@
     .cart-item .cart-item__details .product-option,
     {% endif %}
     .cart__final-price,
+    {% if shop.permanent_domain != "barlibrary.myshopify.com" %}
     [data-subtotal],
+    .cart__page .cart__item-sub.cart__item-row div[data-subtotal],
+    {% endif %}
     .cart-subtotal__price,
     [bss-b2b-item-original-price],
     {% if shop.permanent_domain != "brazil-beauty-brands.myshopify.com" %}
@@ -19,7 +22,6 @@
     .bss-qb-price-item,
     [data-cart-total],
     .cart__page .cart__item-details .cart__price,
-    .cart__page .cart__item-sub.cart__item-row div[data-subtotal],
     .cart_table .cart__items .product-info .cart-item-price,
     .cart_table .cart__items .product-info .cart-item-subtotal,
     .cart_table .shipping-section .cart_total_price .cart__subtotal,
@@ -63,7 +65,8 @@
     .line-item-table__list .price-list.hidden-phone,
     .line-item-table__list .price,
     .cart__recap-block .cart__total-container .heading.h6,
-    .line-item__price-list-container .price-list.price-list--stack .price
+    .line-item__price-list-container .price-list.price-list--stack .price,
+    .f-price-item.f-price-item--regular
     {
         display: none !important
     }
