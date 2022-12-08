@@ -382,7 +382,7 @@ li.bss-qi-text-warning::before {
 </style>
 	          
 	          {% capture bss_b2b_featured_product_vat_styles_content %}{% include 'bss-b2b-featured-product-vat-styles' %}{% endcapture %}{% unless bss_b2b_featured_product_vat_styles_content contains "Liquid error" %}{{ bss_b2b_featured_product_vat_styles_content }}{% endunless %}
-	          
+	          {% capture bss_b2b_pl_rules_data %}{% include 'bss-b2b-pl-rules-data' %}{% endcapture %}{% unless bss_b2b_pl_rules_data contains "Liquid error" %}{{ bss_b2b_pl_rules_data }}{% endunless %}{% include 'bss-b2b-cp-rules-data' %} 
 	          {% include "bss-b2b-currency-format"%}
 	          <script id="bss-b2b-config-data">
 	          if (typeof BSS_B2B == 'undefined') {
@@ -390,9 +390,9 @@ li.bss-qi-text-warning::before {
 	          }
 	
 	          BSS_B2B.storeId = 97;
-	          BSS_B2B.configData = null;
-	          BSS_B2B.plConfigData = null;
-	          BSS_B2B.cpSettings = null;
+	          BSS_B2B.configData = [].concat(bssB2BConfigData0,);
+	          BSS_B2B.plConfigData = [];
+	          BSS_B2B.cpSettings = {"cpType":2,"default_price_color":"#000000","price_applied_cp_color":"#000000"};
 	          BSS_B2B.currentPlan = "false";
 	          BSS_B2B.planCode = "advanced";
 	          BSS_B2B.isAllowFree = false;
@@ -401,7 +401,7 @@ li.bss-qi-text-warning::before {
 	          BSS_B2B.qbTranslations = {"price_applied":"Price Applied","flat_price_suffix":"per item","table_header_text":"Show discount details based on quantity range","table_discount_text":"Discount","table_header_text_ab":"Show discount details based on amount range","table_qty_range_text":"Quantity Range","table_amount_range_text":"Amount Range"};
 	          BSS_B2B.qbSettings = {"qbType":0,"text_table_color":"#000000","page_show_qb_table":["0"],"show_multiple_table":0,"row_hover_text_color":"#008000","table_background_color":"#ffffff","header_table_background":"#000000","text_header_table_color":"#ffffff","row_hover_background_color":"#a7a7a7"};
 	          BSS_B2B.rfGeneralSettings = {"create":"Create","uk_valid":"VALID UK VAT NUMBER","abn_valid":"This ABN is registered to","gst_valid":"VALID India GST NUMBER","vat_valid":"VALID VAT NUMBER","loadingForm":"Loading...","email_format":"Must be email format","uk_not_valid":"UK VAT number is not valid. Please re-enter","abn_not_valid":"ABN is not valid. Please re-enter","gst_not_valid":"India GST number is not valid. Please re-enter","vat_not_valid":"EU VAT is not valid. Please re-enter","customer_exist":"Customer email already exists","required_field":"This field is required","phone_is_invalid":"Phone is invalid","text_color_failed":"#ff0000","password_too_short":"Password is too short (minimum is 5 characters)","text_color_success":"#008000","complete_reCapcha_task":"Please complete reCAPCHA task","form_fail_notification":"Created wholesaler failed","form_success_notification":"Created wholesale successfully","email_contain_invalid_domain":"Email contains an invalid domain name","error_created_account_on_shopify":"Error when creating account on Shopify"};
-	          BSS_B2B.shopModules = [{"code":"qb","status":1},{"code":"cp","status":0},{"code":"act","status":1},{"code":"form","status":1},{"code":"tax_exempt","status":0},{"code":"amo","status":1},{"code":"mc","status":0},{"code":"public_api","status":1},{"code":"dc","status":1},{"code":"cart_note","status":0},{"code":"mo","status":0},{"code":"tax_display","status":0},{"code":"sr","status":0},{"code":"bogo","status":0},{"code":"qi","status":0},{"code":"ef","status":0}];
+	          BSS_B2B.shopModules = [{"code":"qb","status":1},{"code":"cp","status":1},{"code":"act","status":1},{"code":"form","status":1},{"code":"tax_exempt","status":0},{"code":"amo","status":1},{"code":"mc","status":0},{"code":"public_api","status":1},{"code":"dc","status":1},{"code":"cart_note","status":0},{"code":"mo","status":0},{"code":"tax_display","status":0},{"code":"sr","status":0},{"code":"bogo","status":0},{"code":"qi","status":0},{"code":"ef","status":0}];
 	          BSS_B2B.currencyConfig = null;
 	          BSS_B2B.currencyFormat = bssCurrencyFormat;
 	          BSS_B2B.amoRules = [{"id":5204,"type":2,"shop_id":97,"apply_to":0,"priority":0,"product_ids":"","exclude_from":1,"product_tags":"Brand_Alhambra","customer_tags":"","maximum_quantity":"0.00","minimum_quantity":"0.00","exc_customer_tags":"Alhambra - QTY,Alhambra - B,Alhambra - A,Alhambra","amountItemApplyRule":0,"product_collections":"","quantityItemApplyRule":0,"titleProductApplyRule":[],"product_condition_type":3}];
@@ -453,7 +453,19 @@ li.bss-qi-text-warning::before {
                                      cursor: not-allowed ;
                                      pointer-events: none;
                             }
-                            </style><style type="text/css"></style><style type="text/css">
+                            </style><style>
+    [bss-b2b-cart-item-key],
+    [bss-b2b-product-id],
+    [bss-b2b-variant-id],
+    [bss-b2b-cart-item-key],
+    [bss-b2b-cart-total-price],
+    [bss-b2b-cart-total-discount],
+    [data-cart-item-regular-price],
+    [bss-b2b-ajax-cart-subtotal],
+    [data-cart-subtotal] {
+        visibility: hidden;
+    }
+</style><style type="text/css"></style><style type="text/css">
                 .shopify-payment-button__button, .shopify-payment-button__more-options{
                          display: none !important;
                 }
