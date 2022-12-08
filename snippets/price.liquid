@@ -61,6 +61,7 @@
                 <span bss-b2b-product-id="{{ product.id }}" bss-b2b-product-handle="{{ product.handle }}" bss-b2b-variant-id="{{ target.id }}" bss-b2b-variant-price>{{ compare_at_price | money }}</span>
               {% endif %}
             </s>
+            
           </span>
         {%- endunless -%}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.sale_price' | t }}</span>
