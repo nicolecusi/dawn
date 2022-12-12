@@ -62,7 +62,8 @@
  .product-page-row .product-meta-block .product-price #price-info,
  .product-default .product_top .product-shop .prices,
  .abz-main-product div[data-spark="b2c-only"] #product-price,
- .price-container #ProductPrice
+ .price-container #ProductPrice,
+ .tt-product-single-info .tt-price .new-price
  {
   display: none !important;
 }
@@ -72,6 +73,11 @@
  .bss-b2b-product-vat {
     padding: 5px 0;
  }
+ {% if shop.permanent_domain == "barlibrary.myshopify.com" %}
+  [data-product-blocks] [data-product-blocks] .product__price {
+    display: block !important;
+}
+{% endif %}
 </style>
 <script>
     var bssB2BProduct = {{ product | json }};

@@ -66,7 +66,12 @@
     .line-item-table__list .price,
     .cart__recap-block .cart__total-container .heading.h6,
     .line-item__price-list-container .price-list.price-list--stack .price,
-    .f-price-item.f-price-item--regular:not(.prod__sticky-atc .f-price-item.f-price-item--regular, .quick-view__info .f-price-item.f-price-item--regular)
+    .f-price-item.f-price-item--regular:not(.prod__sticky-atc .f-price-item.f-price-item--regular, .quick-view__info .f-price-item.f-price-item--regular),
+    .line-item__price-list .line-item__price:not([style*="text-decoration: line-through"]) .money:not([style*="text-decoration: line-through"]),
+    .line-item__line-price > span .money:not([style*="text-decoration: line-through"]),
+    .cart-recap__price-line-price > .money:not([style*="text-decoration: line-through"]),
+    .tt-product-total .tt-total.total-product-js,
+    .tt-total .tt-price.full-total-js
     {
         display: none !important
     }
