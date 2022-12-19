@@ -110,6 +110,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Are you a music teacher? Enter our 2022 Annual Canadian Classroom String Giveaway",
               "text_alignment": "center",
