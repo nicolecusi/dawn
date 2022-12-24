@@ -24,6 +24,7 @@
         },
         "79c129a0-6ac9-449c-aeef-ff7fdd330a69": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/decorated-christmas-tree.jpg",
             "heading": "Holiday Sale",
