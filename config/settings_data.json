@@ -110,12 +110,11 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Are you a music teacher? Enter our 2022 Annual Canadian Classroom String Giveaway",
+              "text": "Our office is closed for inventory and will resume shipping on January 6, 2023.",
               "text_alignment": "center",
               "color_scheme": "accent-2",
-              "link": "shopify:\/\/pages\/school-string-giveaway"
+              "link": ""
             }
           }
         },
