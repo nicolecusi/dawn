@@ -5,18 +5,17 @@
       "blocks": {
         "16524586661290c3c8-0": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/FlashSale_Banner.jpg",
-            "heading": "Flash Sale",
+            "image": "shopify:\/\/shop_images\/Bam_Web_Banner_4008822e-1607-430e-b1c2-76ee0924cdf9.jpg",
+            "heading": "New Caes by Bam",
             "heading_size": "h1",
-            "subheading": "15% off All Ozark. Sale ends tonight!",
+            "subheading": "Featuring the all-new Shadow Hightech, Bamtech, and Performance lines!",
             "button_label": "Shop now",
-            "link": "shopify:\/\/collections\/ozark",
+            "link": "shopify:\/\/collections\/bam",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "middle-left",
             "show_text_box": true,
-            "text_alignment": "center",
+            "text_alignment": "left",
             "image_overlay_opacity": 0,
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
