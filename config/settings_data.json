@@ -110,6 +110,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Our office is closed for inventory and will resume shipping on January 6, 2023.",
               "text_alignment": "center",
