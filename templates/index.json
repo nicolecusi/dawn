@@ -3,6 +3,24 @@
     "165245866675936f64": {
       "type": "slideshow",
       "blocks": {
+        "404b9a1c-e8ba-485f-8e17-044be858a287": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/all_reeds_7122.webp",
+            "heading": "Bari Woodwind Synthetic Reeds",
+            "heading_size": "h2",
+            "subheading": "These long-lasting, durable reeds can be sanitized and are not affected by outside ambient temperatures",
+            "button_label": "Shop now",
+            "link": "shopify:\/\/collections\/bari",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "79c129a0-6ac9-449c-aeef-ff7fdd330a69": {
           "type": "slide",
           "settings": {
@@ -77,6 +95,7 @@
         }
       },
       "block_order": [
+        "404b9a1c-e8ba-485f-8e17-044be858a287",
         "79c129a0-6ac9-449c-aeef-ff7fdd330a69",
         "16524586661290c3c8-0",
         "856815c8-09b3-4710-9bf8-cf503100b55a",
