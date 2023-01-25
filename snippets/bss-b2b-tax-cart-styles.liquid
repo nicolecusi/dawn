@@ -78,7 +78,16 @@
     .totals .totals__subtotal-value,
     .cart-item__details .product-option,
     #cartForm .grid__item .cart__price .cart__price--compare,
-    #cartForm .grid__item .cart__price .money
+    #cartForm .grid__item .cart__price .money,
+    .bss-b2b-compare-at-price,
+    .ajax-cart__final-details div > p,
+    .cart-subtotal-info .product-price-and-shipping .money,
+    .bss-bogo-cart-subtotal,
+    [data-cart-item-key] .tt-price,
+     .cart__cell--total .cart__item-total,
+    #CartFooter #CartSubtotal,
+    .cart-summary_footer .cart-summary_total .total .cart-summary_price,
+    .art-line-item_price_remove .cart-line-item_price
     {
         display: none !important
     }
@@ -88,6 +97,16 @@
         }
         .cart-item__price-wrapper > .unit-price.caption {
             display: block !important
+        }
+    {% endif %}
+    {% if shop.permanent_domain == "paloma-living-australia.myshopify.com" %}
+        .bss-b2b-cart-vat-subtotal {
+            font-size: 18px !important;
+            font-weight: 500 !important;
+            margin-left: 8px;
+        }
+        .bss-b2b-cart-vat {
+            font-weight: 500 !important;
         }
     {% endif %}
 </style>{% endif %}
