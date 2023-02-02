@@ -132,7 +132,7 @@
           "logo": "shopify:\/\/shop_images\/Counterpoint-Music_Logo-Dark.png",
           "logo_width": 250,
           "logo_position": "top-left",
-          "menu": "new-main-menu",
+          "menu": "catalogue-menu",
           "menu_type_desktop": "mega",
           "show_line_separator": true,
           "enable_sticky_header": true,
@@ -162,7 +162,7 @@
             "type": "link_list",
             "settings": {
               "heading": "Shop",
-              "menu": "new-main-menu"
+              "menu": "catalogue-menu"
             }
           },
           "footer-1": {
