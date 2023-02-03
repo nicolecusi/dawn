@@ -87,7 +87,9 @@
      .cart__cell--total .cart__item-total,
     #CartFooter #CartSubtotal,
     .cart-summary_footer .cart-summary_total .total .cart-summary_price,
-    .art-line-item_price_remove .cart-line-item_price
+    .art-line-item_price_remove .cart-line-item_price,
+    .cart-item--content-price,
+    .cart-item__info .cart-item__total
     {
         display: none !important
     }
@@ -99,6 +101,11 @@
             display: block !important
         }
     {% endif %}
+    {% if shop.permanent_domain == "ryan-s-eu.myshopify.com" %}
+        .cart-item__price-wrapper .price.price--end, .cart-item__details .product-option,.cart-item .cart-item__details .product-option{
+            display: block !important
+        }
+    {% endif %}
     {% if shop.permanent_domain == "paloma-living-australia.myshopify.com" %}
         .bss-b2b-cart-vat-subtotal {
             font-size: 18px !important;
@@ -107,6 +114,14 @@
         }
         .bss-b2b-cart-vat {
             font-weight: 500 !important;
+        }
+    {% endif %}
+      {% if shop.permanent_domain == "stelzlagergigant.myshopify.com" %}
+        .line-item_price [bss-b2b-item-final-price] {
+           display: none !important;
+        }
+        .bss-custom-price{
+          display: block !important;
         }
     {% endif %}
 </style>{% endif %}

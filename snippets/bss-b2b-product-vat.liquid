@@ -68,7 +68,8 @@
  .product-details_price .product-details_price-wrapper .price-sale,
  .product-card_price_action .product-price .price,
  .double-variant .product-varient .product-price,
- .product-varient .bss-b2b-customized-compare-at-price
+ .product-varient .bss-b2b-customized-compare-at-price,
+ .price__container .price__regular .price-item [bss-b2b-variant-price]
  {
   display: none !important;
 }
@@ -83,6 +84,17 @@
     display: block !important;
 }
 {% endif %}
+  {% if shop.permanent_domain == "stelzlagergigant.myshopify.com" %}
+    .product__policies.rte, .shopify-section, .product-details_price .product-details_price-wrapper .price-sale, .product-details_price-inner{
+        display: block !important;
+      }
+    .product-details_price-inner .price-sale span{
+      display: none !important;
+    }
+    .product-details_price-inner .price-sale{
+      margin-right: 10px !important;
+    }
+ {% endif %}
 </style>
 <script>
     var bssB2BProduct = {{ product | json }};

@@ -59,5 +59,30 @@
         {
             display: none !important;
         }
+        {% if shop.permanent_domain == "ryan-s-eu.myshopify.com" %}
+        .price__regular{
+            display: block !important
+        }
+        .price-item [bss-b2b-variant-price]{
+           display: none !important;
+        }
+        {% endif %}
+        
+        {% if shop.permanent_domain == "fodaboxwholesale.myshopify.com" %}
+            .price.productitem__price {
+                display: block !important
+            }
+            .price.productitem__price .price__current{
+               display: none !important;
+            }
+            {% endif %}
+        {% if shop.permanent_domain == "the-candle-brand-trade.myshopify.com" %}
+        .price__regular{
+            display: block !important
+        }
+        .price-item [bss-b2b-variant-price]{
+           display: none !important;
+        }
+        {% endif %}
     </style>
 {% endif %}{% endif %}
