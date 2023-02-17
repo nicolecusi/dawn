@@ -3,6 +3,24 @@
     "165245866675936f64": {
       "type": "slideshow",
       "blocks": {
+        "16524586661290c3c8-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Violin_Dynamo_DY100_plus_Kuverts.jpg",
+            "heading": "Dynamo Strings by Thomastik-Infeld",
+            "heading_size": "h1",
+            "subheading": "Perform like you never have before",
+            "button_label": "Pre-order now",
+            "link": "shopify:\/\/products\/dynamo-violin-string-set",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 40,
+            "color_scheme": "accent-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "404b9a1c-e8ba-485f-8e17-044be858a287": {
           "type": "slide",
           "settings": {
@@ -74,32 +92,14 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "16524586661290c3c8-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Violin_Dynamo_DY100_plus_Kuverts.jpg",
-            "heading": "Dynamo Strings by Thomastik-Infeld",
-            "heading_size": "h1",
-            "subheading": "Perform like you never have before",
-            "button_label": "Shop now",
-            "link": "shopify:\/\/products\/dynamo-violin-string-set",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 40,
-            "color_scheme": "accent-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
+        "16524586661290c3c8-1",
         "404b9a1c-e8ba-485f-8e17-044be858a287",
         "79c129a0-6ac9-449c-aeef-ff7fdd330a69",
         "16524586661290c3c8-0",
-        "856815c8-09b3-4710-9bf8-cf503100b55a",
-        "16524586661290c3c8-1"
+        "856815c8-09b3-4710-9bf8-cf503100b55a"
       ],
       "settings": {
         "layout": "full_bleed",
