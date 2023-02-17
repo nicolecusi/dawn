@@ -78,18 +78,18 @@
         "16524586661290c3c8-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Cropped_Resonator_Guitar_Body.png",
-            "heading": "Ozark",
+            "image": "shopify:\/\/shop_images\/Violin_Dynamo_DY100_plus_Kuverts.jpg",
+            "heading": "Dynamo Strings by Thomastik-Infeld",
             "heading_size": "h1",
-            "subheading": "Different by Design",
+            "subheading": "Perform like you never have before",
             "button_label": "Shop now",
-            "link": "shopify:\/\/collections\/ozark",
+            "link": "shopify:\/\/products\/dynamo-violin-string-set",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 40,
-            "color_scheme": "background-1",
+            "color_scheme": "accent-1",
             "text_alignment_mobile": "center"
           }
         }
