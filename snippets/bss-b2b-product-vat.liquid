@@ -98,6 +98,23 @@
       margin-right: 10px !important;
     }
  {% endif %}
+ {% if shop.permanent_domain == "fodaboxwholesale.myshopify.com" %}
+  [data-price-container],
+  .product-pricing .price__current,
+  .shopify-section .product__price
+  {
+      display: block !important;
+  }
+  {% endif %}
+  {% if shop.permanent_domain == "nuoka.myshopify.com" %}
+  [data-price-container],
+  .shopify-section .product__price{
+      display: block !important;
+  }
+  .price__current .money{
+    display: none !important;
+  }
+   {% endif %}
 </style>
 <script>
     var bssB2BProduct = {{ product | json }};

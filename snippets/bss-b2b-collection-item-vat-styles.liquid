@@ -69,11 +69,11 @@
         {% endif %}
         
         {% if shop.permanent_domain == "fodaboxwholesale.myshopify.com" %}
-            .price.productitem__price {
+            .productgrid--wrapper .productitem__price .price__current,
+            [data-price-container],
+            .price.productitem__price
+            {
                 display: block !important
-            }
-            .price.productitem__price .price__current{
-               display: none !important;
             }
             {% endif %}
         {% if shop.permanent_domain == "the-candle-brand-trade.myshopify.com" %}
@@ -81,6 +81,23 @@
             display: block !important
         }
         .price-item [bss-b2b-variant-price]{
+           display: none !important;
+        }
+        {% endif %}
+        {% if shop.permanent_domain == "suacosmetics.myshopify.com" %}
+        .price__regular{
+            display: block !important
+        }
+        .price-item[bss-b2b-variant-price]{
+           display: none !important;
+        }
+        {% endif %}
+        
+        {% if shop.permanent_domain == "valera-prod.myshopify.com" %}
+        .price__regular{
+            display: block !important;
+        }
+        .price-item [bss-b2b-product-price]{
            display: none !important;
         }
         {% endif %}
