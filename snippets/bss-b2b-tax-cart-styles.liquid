@@ -89,7 +89,9 @@
     .cart-summary_footer .cart-summary_total .total .cart-summary_price,
     .art-line-item_price_remove .cart-line-item_price,
     .cart-item--content-price,
-    .cart-item__info .cart-item__total
+    .cart-item__info .cart-item__total,
+    .cart-notification-product__price .price__regular .price-item.price-item--regular,
+    .transcy-money:not(.bss-b2b-cart-vat .transcy-money, .bss-b2b-product-vat. transcy-money, .bss-b2b-cart-vat-subtotal .transcy-money, td > .transcy-money, .bss-b2b-qty-table-wrapper .transcy-money)
     {
         display: none !important
     }
@@ -122,6 +124,17 @@
         }
         .bss-custom-price{
           display: block !important;
+        }
+    {% endif %}
+    {% if shop.permanent_domain == "suacosmetics.myshopify.com" %}
+        .bss-bogo-cart-subtotal {
+            display: block !important;
+        }
+    {% endif %}
+    {% if shop.permanent_domain == "www-dschinni-shisha-com.myshopify.com" %}
+        .bss-qb-total-price-item .transcy-money,
+        [bss-b2b-cart-total-price] .transcy-money {
+            display: none !important;
         }
     {% endif %}
 </style>{% endif %}

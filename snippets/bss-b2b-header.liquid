@@ -391,6 +391,12 @@ li.bss-qi-text-warning::before {
 .bss-b2b-cart-item-qty-table {
   max-width: fit-content !important;
 }
+.bss_rf_privacy_policy_container{
+  margin-bottom: 10px
+}
+.bss_rf_privacy_policy_container p{
+  display: inline;
+}
 </style>
 	          
 	          {% capture bss_b2b_featured_product_vat_styles_content %}{% include 'bss-b2b-featured-product-vat-styles' %}{% endcapture %}{% unless bss_b2b_featured_product_vat_styles_content contains "Liquid error" %}{{ bss_b2b_featured_product_vat_styles_content }}{% endunless %}
@@ -405,7 +411,7 @@ li.bss-qi-text-warning::before {
 	          BSS_B2B.storeId = 97;
 	          BSS_B2B.currentPlan = "false";
 	          BSS_B2B.planCode = "advanced";
-	          BSS_B2B.rfGeneralSettings = {"form_success_notification":"Created wholesaler successfully","form_edit_success_notification":"Edited wholesaler successfully","form_fail_notification":"Created wholesaler failed","form_edit_fail_notification":"Edited wholesaler failed","vat_valid":"VALID VAT NUMBER","vat_not_valid":"EU VAT is not valid. Please re-enter","customer_exist":"Customer email already exists","required_field":"This field is required","password_too_short":"Password is too short (minimum is 5 characters)","email_format":"Must be email format","email_contain_invalid_domain":"Email contains an invalid domain name","error_created_account_on_shopify":"Error when creating account on Shopify","loadingForm":"Loading...","create":"Create","phone_is_invalid":"Phone is invalid","complete_privacy_policy":"Please accept the privary policy","complete_reCapcha_task":"Please complete reCAPTCHA task","abn_valid":"This ABN is registered to","abn_not_valid":"ABN is not valid. Please re-enter","gst_valid":"VALID India GST NUMBER","gst_not_valid":"India GST number is not valid. Please re-enter","uk_valid":"VALID UK VAT NUMBER","uk_not_valid":"UK VAT number is not valid. Please re-enter","text_color_success":"#008000","text_color_failed":"#ff0000"};
+	          BSS_B2B.rfGeneralSettings = {"form_success_notification":"Created wholesaler successfully","form_edit_success_notification":"Edited wholesaler successfully","form_fail_notification":"Created wholesaler failed","form_edit_fail_notification":"Edited wholesaler failed","vat_valid":"VALID VAT NUMBER","vat_not_valid":"EU VAT is not valid. Please re-enter","customer_exist":"Customer email already exists","required_field":"This field is required","password_too_short":"Password is too short (minimum is 5 characters)","email_format":"Must be email format","email_contain_invalid_domain":"Email contains an invalid domain name","error_created_account_on_shopify":"Error when creating account on Shopify","loadingForm":"Loading...","create":"Create","phone_is_invalid":"Phone is invalid","complete_privacy_policy":"Please accept the privacy policy","complete_reCapcha_task":"Please complete reCAPTCHA task","abn_valid":"This ABN is registered to","abn_not_valid":"ABN is not valid. Please re-enter","gst_valid":"VALID India GST NUMBER","gst_not_valid":"India GST number is not valid. Please re-enter","uk_valid":"VALID UK VAT NUMBER","uk_not_valid":"UK VAT number is not valid. Please re-enter","text_color_success":"#008000","text_color_failed":"#ff0000"};
 	          BSS_B2B.shopModules = [{"code":"qb","status":1},{"code":"cp","status":1},{"code":"act","status":1},{"code":"form","status":1},{"code":"tax_exempt","status":0},{"code":"amo","status":1},{"code":"mc","status":0},{"code":"public_api","status":1},{"code":"dc","status":1},{"code":"cart_note","status":0},{"code":"mo","status":0},{"code":"tax_display","status":0},{"code":"sr","status":0},{"code":"bogo","status":0},{"code":"qi","status":0},{"code":"ef","status":0}];
 	          BSS_B2B.currencyConfig = null;
 	          BSS_B2B.currencyFormat = bssCurrencyFormat;

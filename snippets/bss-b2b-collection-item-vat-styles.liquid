@@ -55,11 +55,14 @@
         .product-item .product-item__info-inner .product-item__price-list .money,
         .tt-description .tt-price > [bss-b2b-product-id],
         .grid-product__wrapper .price-compare .money,
-        .line-item__info .product-item-meta__price-list-container .price-list .price
+        .line-item__info .product-item-meta__price-list-container .price-list .price,
+        .product-item__inner .product-item__meta .product-item__price,
+        .quick-search__result .quick-search__result-details .quick-search__result-price,
+        .transcy-money:not(.bss-b2b-collection-item-vat .transcy-money, .bss-b2b-product-vat .transcy-money, .bss-b2b-cart-vat .transcy-money, .bss-b2b-qty-table-wrapper .transcy-money)
         {
             display: none !important;
         }
-        {% if shop.permanent_domain == "ryan-s-eu.myshopify.com" %}
+        {% if shop.permanent_domain == "ryan-s-eu.myshopify.com" or shop.permanent_domain == "axessorize-com-au.myshopify.com" %}
         .price__regular{
             display: block !important
         }
