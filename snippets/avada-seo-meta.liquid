@@ -1,0 +1,31 @@
+{% if request.page_type == 'product' %}
+{%- unless avada_seo_ovr_product_ids contains product.id -%}
+{%- capture avada_seo_meta_title -%}{{ product.vendor }} {{ product.title }} | {{ shop.name}} | Wholesale Distribution{%- endcapture -%}
+{%- capture avada_seo_meta_description -%}{{ product.content }}{%- endcapture -%}
+{% endunless %}
+{% endif %}
+
+{% if request.page_type == 'collection' %}
+{%- unless avada_seo_ovr_collection_ids contains collection.id -%}
+{%- capture avada_seo_meta_title -%}{{ collection.title }} | Counterpoint Music{%- endcapture -%}
+{%- capture avada_seo_meta_description -%}Buy Wholesale {{ collection.title }} at {{ shop.name }}.  No Minimum Order. Become a Dealer Today.{%- endcapture -%}
+{% endunless %}
+{% endif %}
+
+{% if request.page_type == 'article' %}
+{%- unless avada_seo_ovr_article_ids contains article.id -%}
+{%- capture avada_seo_meta_title -%}{{ article.title }}{%- endcapture -%}
+{%- capture avada_seo_meta_description -%}{{ article.excerpt_or_content }}{%- endcapture -%}
+{% endunless %}
+{% endif %}
+
+{% if avada_seo_meta_title %}
+{%- assign seo_title = avada_seo_meta_title | strip_html | strip -%}
+{%- assign page_title = seo_title -%}
+{%- assign og_title = seo_title -%}
+{% endif %}
+
+{% if avada_seo_meta_description %}
+{%- assign page_description = avada_seo_meta_description | strip_html | strip -%}
+{%- assign og_description = page_description -%}
+{% endif %}
